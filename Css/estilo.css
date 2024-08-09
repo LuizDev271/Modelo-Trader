@@ -1,0 +1,528 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700;900&family=Sora:wght@100..800&display=swap');
+
+*{
+    padding: 0;
+    margin: 0;
+    transition: all 0.75s;
+    font-family: "Sora", sans-serif;
+}
+
+:root{
+    --cor1: #4F77FF;
+    --cor2: #0476D9;
+    --cor3: #274ED2;
+    --cor4: #03258C;
+    --cor5: #000227;
+}
+
+::-webkit-scrollbar{
+    width: 10px;
+    background-color: black;
+}
+
+::-webkit-scrollbar-thumb{
+    background-color: var(--cor3);
+}
+
+/*Gerais
+-----------*/
+body{
+    background-color: black;
+}
+
+section{
+    height: 800px;
+}
+
+h1{
+    color: white;
+    font-size: 34px;
+    font-weight: 700;
+    line-height: 50px;
+}
+
+h2{
+    color: white;
+    font-weight: 700;
+    line-height: 50px; 
+}
+
+h4{
+    color: white;
+    line-height: 50px;  
+}
+
+h5{
+    font-size: 22px;
+    color: white;
+    margin: 0 0 0 15px;
+}
+
+p{
+    font-size: 18px;
+    color: white;
+    padding: 10px 0;
+}
+
+ul li{
+    width: 470px;
+    border-bottom: 1px solid #333333;
+}
+
+ul li p{
+    padding: 10px 0;
+    margin: 0;
+    font-size: 15px;
+}
+
+ul li i{
+    color: var(--cor3);
+    padding: 0 10px 0 0;
+}
+
+/*Classes
+-----------*/
+.container{
+    padding: 0;
+}
+
+.caixa-conteudo{
+    background-color: var(--cor3);
+    height: 60px;
+    margin: 20px 0;
+}
+
+.caixa-valor{
+    background-color: #0D0D0D;
+    border-radius: 40px 0px 40px 0px;
+    border: 25px;
+    height: 90%;
+}
+
+.row{
+    height: 800px;
+}
+
+.azul{
+    color: var(--cor1);
+    font-weight: 700;
+}
+
+.vermelho{
+    color: red;
+    text-decoration: line-through;
+}
+
+.btn{
+    color: white;
+    font-weight: 600;
+    letter-spacing: 1px;
+    background-color: var(--cor3);
+    border-radius: 50px;
+    width: 570px;
+    height: 55px;
+    transition: all 0.7s;
+}
+
+.btn:hover{
+    color: var(--cor1);
+    background-color: white;
+    transform: scale(1.15);
+    transition: all 0.4s;
+}
+
+#sobre .btn, #dinheiro .btn, #ensino .btn, #acesso .btn{
+    width: 250px;
+    height: 47px;
+}
+
+/*Home
+-----------*/
+#home{
+    background-image: url('../Imagens/Fundos/Fundo-1.jpg');
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+#home img{
+    padding-bottom: 15px;
+}
+
+#home video{
+    width: 570px;
+    height: 321px;
+    margin-bottom: 25px;
+    border-radius: 20px;
+    border: 2px solid var(--cor3);
+}
+
+/*Sobre
+-----------*/
+#sobre{
+    overflow: hidden;
+    background-image: url('../Imagens/Fundos/Fundo-2.jpg');
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+/*Dinheiro
+-----------*/
+#dinheiro{
+    overflow: hidden;
+    background-image: url('../Imagens/Fundos/Fundo-3.jpg');
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+/*Ensino
+-----------*/
+#ensino{
+    overflow: hidden;
+    height: 788px;
+    background-image: url('../Imagens/Fundos/Fundo-4.jpg');
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+/*Metodos
+-----------*/
+#metodos{
+    margin-top: 125px;
+}
+
+#metodos h1{
+    text-align: center;  
+}
+
+#metodos p{
+    text-align: center;
+    margin-bottom: 0;
+    padding-bottom: 0;
+}
+
+#metodos button:focus{
+    outline: none;
+}
+
+#metodos button:hover{
+    color: white;
+    cursor: pointer;
+}
+
+#container{
+    position: relative;
+    margin: 0 auto;
+}
+
+.seta-esquerda{
+    position: absolute;
+    background-color: transparent;
+    top: 0;
+    left: 0;
+    right: auto;
+    bottom: 0;
+    width: 55px;
+    border: none;
+    font-size: 30px;
+    color: var(--cor3);
+    z-index: 1;
+}
+
+.seta-direita{
+    position: absolute;
+    background-color: transparent;
+    top: 0;
+    left: auto;
+    right: 0;
+    bottom: 0;
+    width: 55px;
+    border: none;
+    font-size: 30px;
+    color: var(--cor3);
+    z-index: 1;
+}
+
+#fotos{
+    height: 600px;
+    padding: 0 400px;
+    display: flex;
+    flex-wrap: nowrap;
+    overflow: hidden;
+    align-items: center;
+}
+
+#metodos img{
+    width: 400px;
+    height: 440px;
+    padding: 15px;
+    margin: 30px;
+    border-radius: 30px;
+}
+
+.item{
+    transform: skewY(12deg);
+    opacity: 0.7;
+}
+
+.item-esquerda{
+    opacity: 0.7;
+    transform: skewY(-12deg); 
+}
+
+.item-foco{
+    opacity: 1;
+    transform: skewY(0deg) scale(1.25);
+}
+
+/*Informações
+-----------*/
+#info{
+    overflow: hidden;
+    padding-top: 30px;
+}
+
+#info #modulos-conteudos{
+    height: 360px;
+}
+
+#info .row{
+    height: 100px;
+}
+
+#info p{
+    text-align: center;
+    width: 75%;
+    margin: auto;
+    margin-bottom: 20px;
+}
+
+#info .btn{
+    width: 700px;
+    margin: auto;
+}
+
+#info .container > h1{
+    text-align: center;
+}
+
+.caixa-conteudo i{
+    color: var(--cor3);
+    font-size: 18px;
+    background-color: white;
+    margin-right: 20px;
+    border-radius: 2px;
+    padding: 2px 4px;
+}
+
+/*Depoimentos
+-----------*/
+#depoimentos button:focus{
+    outline: none;
+}
+
+#depoimentos button:hover{
+    cursor: pointer;
+    color: white;
+}
+
+#depoimentos img{
+    width: 400px;
+    height: 400px;
+    margin: 0 50px;
+}
+
+#depoimentos h1{
+    text-align: center;
+}
+
+#container-2{
+    position: relative;
+    margin: 0 auto;
+}
+
+.seta-esquerda-2{
+    position: absolute;
+    background-color: transparent;
+    top: 0;
+    left: 0;
+    right: auto;
+    bottom: 0;
+    width: 55px;
+    border: none;
+    font-size: 30px;
+    color: var(--cor3);
+    z-index: 1;
+}
+
+.seta-direita-2{
+    position: absolute;
+    background-color: transparent;
+    top: 0;
+    left: auto;
+    right: 0;
+    bottom: 0;
+    width: 55px;
+    border: none;
+    font-size: 30px;
+    color: var(--cor3);
+    z-index: 1;
+}
+
+
+/*Acesso
+-----------*/
+#acesso{
+    height: 610px;
+    background-image: url('../Imagens/Fundos/Fundo-5.jpg');
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+/*Inscrição
+------------*/
+#inscricao{
+    height: 900px;
+    margin-bottom: 550px;
+    padding-top: 150px;
+    background-image: url('../Imagens/Fundos/Fundo-6.jpg');
+    background-position: right top;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+#inscricao .row{
+    height: 1090px;
+}
+
+#inscricao h1{
+    margin-bottom: 15px;
+    text-align: center; 
+}
+
+#inscricao h5{
+    text-align: center; 
+    margin-top: 20px;
+}
+
+#inscricao h1#preco{
+    font-size: 94px;
+    margin: 18px 0;
+}
+
+#inscricao .btn{
+    width: 450px;
+    margin-top: 25px;
+}
+
+#inscricao #garantia{
+    width: 80%;
+    margin: 20px auto;
+    background-color: #274ED2;
+    border-radius: 20px 0;
+    font-size: 14px;
+    text-align: center;
+}
+
+/*Perguntas
+-------------*/
+#perguntas{
+    height: 800px;
+}
+#perguntas h1{
+    text-align: center;
+    padding-bottom: 150px;
+}
+
+#perguntas h5{
+    font-size: 16px;
+}
+
+/*Rodape
+-------------*/
+#rodape{
+    height: 180px;
+    background-color: var(--cor3);
+}
+
+#rodape img{
+    margin: 15px 0;
+}
+
+#rodape i{
+    background-color: white;
+    border-radius: 15px;
+    margin: 4px 5px;
+    font-size: 35px;
+    padding: 3px 5px 2px 5px;
+    color: var(--cor3);
+}
+
+#rodape i:hover{
+    transform: scale(1.25);
+}
+
+#rodape p{
+    font-size: 16px;
+}
+
+#rodape a#social{
+    font-weight: bold;
+    color: black;
+    text-decoration: none;
+}
+
+#rodape a#social:hover{
+    color: white;
+    font-size: 18px;
+    padding-bottom: 2px;
+    border-bottom: 3px solid white;
+}
+
+/*Classes Animações
+------------------------*/
+.animacao-1{
+    transform: translateX(-550px);
+    opacity: 0;
+    cursor: default;
+}
+
+.animacao-2{
+    transform: translateX(650px);
+    opacity: 0;
+    cursor: default;
+}
+
+.animacao-3{
+    transform: translateY(75px);
+    opacity: 0;
+    cursor: default;
+}
+
+.animacao-4{
+    transform: translateY(-50px);
+    opacity: 0;
+    cursor: default;
+}
+
+.animacao-5{
+    transform: translateX(-500px);
+    opacity: 0;
+    cursor: default;
+}
+
+.animacao-6{
+    transform: translateX(500px);
+    opacity: 0;
+    cursor: default;
+}
+
+.padrao{
+    transform: translateX(0px);
+    opacity: 1;
+    cursor: auto;
+}
