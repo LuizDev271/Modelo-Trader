@@ -13,8 +13,6 @@ function animacoes(){
     largura = window.innerWidth
     rolagem = scrollY
 
-    console.log(largura, rolagem)
-
     if(rolagem > 400 && largura >= 1200){
         //Titulos - seções conteudo
         animacao1[0].classList.remove('animacao-1')

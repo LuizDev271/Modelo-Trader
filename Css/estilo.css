@@ -92,6 +92,14 @@ ul li i{
     margin: 20px 0;
 }
 
+.caixa-conteudo:hover{
+    cursor: pointer;
+}
+
+.informa{
+    display: none;
+}
+
 .caixa-valor{
     background-color: #0D0D0D;
     border-radius: 40px 0px 40px 0px;
@@ -287,6 +295,13 @@ ul li i{
 
 #info #modulos-conteudos{
     height: 360px;
+}
+
+#info #modulos-conteudos p{
+    font-size: 15px;
+    text-align: start;
+    margin: 0 25px;
+    padding-top: 0;
 }
 
 #info .row{
