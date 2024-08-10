@@ -2085,98 +2085,509 @@ function caixaInforma4(){
 
 function caixaInforma5(){
     if(largura2 >= 1200){
-        if(aberta[4] == false && aberta[5] == false && aberta[6] == false && aberta[7] == false){
+        //Direita
+        //===========================
+
+        if(aberta[4] == false && aberta[5] == false && aberta[6] == false && aberta[7] == false && aberta[0] == false && aberta[1] == false && aberta[2] == false && aberta[3] == false){
             informacoes[4].style.display = 'block'
             tamanhoCaixaInformacoes.style.height = '465px'
     
             aberta[4] = true
 
-        } else if(aberta[4] == true && aberta[5] == false && aberta[6] == false && aberta[7] == false) {
+        } else if(aberta[4] == true && aberta[5] == false && aberta[6] == false && aberta[7] == false && aberta[0] == false && aberta[1] == false && aberta[2] == false && aberta[3] == false) {
             informacoes[4].style.display = 'none'
             tamanhoCaixaInformacoes.style.height = '360px'
     
             aberta[4] = false
 
-        } else if(aberta[4] == false && aberta[5] == true && aberta[6] == false && aberta[7] == false){
+        } else if(aberta[4] == false && aberta[5] == true && aberta[6] == false && aberta[7] == false && aberta[0] == false && aberta[1] == false && aberta[2] == false && aberta[3] == false){
             informacoes[4].style.display = 'block'
             tamanhoCaixaInformacoes.style.height = '540px'
     
             aberta[4] = true
 
-        } else if(aberta[4] == true && aberta[5] == true && aberta[6] == false && aberta[7] == false){
+        } else if(aberta[4] == true && aberta[5] == true && aberta[6] == false && aberta[7] == false && aberta[0] == false && aberta[1] == false && aberta[2] == false && aberta[3] == false){
             informacoes[4].style.display = 'none'
             tamanhoCaixaInformacoes.style.height = '465px'
     
             aberta[4] = false
 
-        } else if(aberta[4] == false && aberta[5] == false && aberta[6] == true && aberta[7] == false){
+        } else if(aberta[4] == false && aberta[5] == false && aberta[6] == true && aberta[7] == false && aberta[0] == false && aberta[1] == false && aberta[2] == false && aberta[3] == false){
             informacoes[4].style.display = 'block'
             tamanhoCaixaInformacoes.style.height = '550px'
     
             aberta[4] = true
 
-        } else if(aberta[4] == true && aberta[5] == false && aberta[6] == true && aberta[7] == false){
+        } else if(aberta[4] == true && aberta[5] == false && aberta[6] == true && aberta[7] == false && aberta[0] == false && aberta[1] == false && aberta[2] == false && aberta[3] == false){
             informacoes[4].style.display = 'none'
             tamanhoCaixaInformacoes.style.height = '465px'
     
             aberta[4] = false
 
-        } else if(aberta[4] == false && aberta[5] == false && aberta[6] == false && aberta[7] == true){
+        } else if(aberta[4] == false && aberta[5] == false && aberta[6] == false && aberta[7] == true && aberta[0] == false && aberta[1] == false && aberta[2] == false && aberta[3] == false){
             informacoes[4].style.display = 'block'
             tamanhoCaixaInformacoes.style.height = '550px'
     
             aberta[4] = true
 
-        } else if(aberta[4] == true && aberta[5] == false && aberta[6] == false && aberta[7] == true){
+        } else if(aberta[4] == true && aberta[5] == false && aberta[6] == false && aberta[7] == true && aberta[0] == false && aberta[1] == false && aberta[2] == false && aberta[3] == false){
             informacoes[4].style.display = 'none'
             tamanhoCaixaInformacoes.style.height = '465px'
     
             aberta[4] = false
 
-        } else if(aberta[4] == false && aberta[5] == true && aberta[6] == true && aberta[7] == false){
+        } else if(aberta[4] == false && aberta[5] == true && aberta[6] == true && aberta[7] == false && aberta[0] == false && aberta[1] == false && aberta[2] == false && aberta[3] == false){
             informacoes[4].style.display = 'block'
             tamanhoCaixaInformacoes.style.height = '650px'
     
             aberta[4] = true
 
-        } else if(aberta[4] == true && aberta[5] == true && aberta[6] == true && aberta[7] == false){
+        } else if(aberta[4] == true && aberta[5] == true && aberta[6] == true && aberta[7] == false && aberta[0] == false && aberta[1] == false && aberta[2] == false && aberta[3] == false){
             informacoes[4].style.display = 'none'
             tamanhoCaixaInformacoes.style.height = '540px'
     
             aberta[4] = false
 
-        } else if(aberta[4] == false && aberta[5] == false && aberta[6] == true && aberta[7] == true){
+        } else if(aberta[4] == false && aberta[5] == false && aberta[6] == true && aberta[7] == true && aberta[0] == false && aberta[1] == false && aberta[2] == false && aberta[3] == false){
             informacoes[4].style.display = 'block'
             tamanhoCaixaInformacoes.style.height = '650px'
     
             aberta[4] = true
 
-        } else if(aberta[4] == true && aberta[5] == false && aberta[6] == true && aberta[7] == true){
+        } else if(aberta[4] == true && aberta[5] == false && aberta[6] == true && aberta[7] == true && aberta[0] == false && aberta[1] == false && aberta[2] == false && aberta[3] == false){
             informacoes[4].style.display = 'none'
             tamanhoCaixaInformacoes.style.height = '550px'
     
             aberta[4] = false
 
-        } else if(aberta[4] == false && aberta[5] == true && aberta[6] == false && aberta[7] == true){
+        } else if(aberta[4] == false && aberta[5] == true && aberta[6] == false && aberta[7] == true && aberta[0] == false && aberta[1] == false && aberta[2] == false && aberta[3] == false){
             informacoes[4].style.display = 'block'
             tamanhoCaixaInformacoes.style.height = '640px'
     
             aberta[4] = true
         
-        } else if(aberta[4] == true && aberta[5] == true && aberta[6] == false && aberta[7] == true){
+        } else if(aberta[4] == true && aberta[5] == true && aberta[6] == false && aberta[7] == true && aberta[0] == false && aberta[1] == false && aberta[2] == false && aberta[3] == false){
             informacoes[4].style.display = 'none'
             tamanhoCaixaInformacoes.style.height = '550px'
     
             aberta[4] = false
 
-        } else if(aberta[4] == false && aberta[5] == true && aberta[6] == true && aberta[7] == true){
+        } else if(aberta[4] == false && aberta[5] == true && aberta[6] == true && aberta[7] == true && aberta[0] == false && aberta[1] == false && aberta[2] == false && aberta[3] == false){
             informacoes[4].style.display = 'block'
             tamanhoCaixaInformacoes.style.height = '750px'
             document.getElementById('info').style.height = '1100px'
     
             aberta[4] = true
 
-        } else if(aberta[4] == true && aberta[5] == true && aberta[6] == true && aberta[7] == true){
+        } else if(aberta[4] == true && aberta[5] == true && aberta[6] == true && aberta[7] == true && aberta[0] == false && aberta[1] == false && aberta[2] == false && aberta[3] == false){
+            informacoes[4].style.display = 'none'
+            tamanhoCaixaInformacoes.style.height = '650px'
+            document.getElementById('info').style.height = '1000px'
+    
+            aberta[4] = false
+        }
+
+        //Direita - 1
+        //=======================================
+
+        if(aberta[4] == false && aberta[5] == false && aberta[6] == false && aberta[7] == false && aberta[0] == true){
+            informacoes[4].style.display = 'block'
+            tamanhoCaixaInformacoes.style.height = '450px'
+    
+            aberta[4] = true
+
+        } else if(aberta[4] == true && aberta[5] == false && aberta[6] == false && aberta[7] == false && aberta[0] == true) {
+            informacoes[4].style.display = 'none'
+            tamanhoCaixaInformacoes.style.height = '450px'
+    
+            aberta[4] = false
+
+        } else if(aberta[4] == false && aberta[5] == true && aberta[6] == false && aberta[7] == false && aberta[0] == true){
+            informacoes[4].style.display = 'block'
+            tamanhoCaixaInformacoes.style.height = '540px'
+    
+            aberta[4] = true
+
+        } else if(aberta[4] == true && aberta[5] == true && aberta[6] == false && aberta[7] == false && aberta[0] == true){
+            informacoes[4].style.display = 'none'
+            tamanhoCaixaInformacoes.style.height = '450px'
+    
+            aberta[4] = false
+
+        } else if(aberta[4] == false && aberta[5] == false && aberta[6] == true && aberta[7] == false && aberta[0] == true){
+            informacoes[4].style.display = 'block'
+            tamanhoCaixaInformacoes.style.height = '550px'
+    
+            aberta[4] = true
+
+        } else if(aberta[4] == true && aberta[5] == false && aberta[6] == true && aberta[7] == false && aberta[0] == true){
+            informacoes[4].style.display = 'none'
+            tamanhoCaixaInformacoes.style.height = '450px'
+    
+            aberta[4] = false
+
+        } else if(aberta[4] == false && aberta[5] == false && aberta[6] == false && aberta[7] == true && aberta[0] == true){
+            informacoes[4].style.display = 'block'
+            tamanhoCaixaInformacoes.style.height = '550px'
+    
+            aberta[4] = true
+
+        } else if(aberta[4] == true && aberta[5] == false && aberta[6] == false && aberta[7] == true && aberta[0] == true){
+            informacoes[4].style.display = 'none'
+            tamanhoCaixaInformacoes.style.height = '450px'
+    
+            aberta[4] = false
+
+        } else if(aberta[4] == false && aberta[5] == true && aberta[6] == true && aberta[7] == false && aberta[0] == true){
+            informacoes[4].style.display = 'block'
+            tamanhoCaixaInformacoes.style.height = '620px'
+    
+            aberta[4] = true
+
+        } else if(aberta[4] == true && aberta[5] == true && aberta[6] == true && aberta[7] == false && aberta[0] == true){
+            informacoes[4].style.display = 'none'
+            tamanhoCaixaInformacoes.style.height = '520px'
+    
+            aberta[4] = false
+
+        } else if(aberta[4] == false && aberta[5] == false && aberta[6] == true && aberta[7] == true && aberta[0] == true){
+            informacoes[4].style.display = 'block'
+            tamanhoCaixaInformacoes.style.height = '650px'
+    
+            aberta[4] = true
+
+        } else if(aberta[4] == true && aberta[5] == false && aberta[6] == true && aberta[7] == true && aberta[0] == true){
+            informacoes[4].style.display = 'none'
+            tamanhoCaixaInformacoes.style.height = '550px'
+    
+            aberta[4] = false
+
+        } else if(aberta[4] == false && aberta[5] == true && aberta[6] == false && aberta[7] == true && aberta[0] == true){
+            informacoes[4].style.display = 'block'
+            tamanhoCaixaInformacoes.style.height = '640px'
+    
+            aberta[4] = true
+        
+        } else if(aberta[4] == true && aberta[5] == true && aberta[6] == false && aberta[7] == true && aberta[0] == true){
+            informacoes[4].style.display = 'none'
+            tamanhoCaixaInformacoes.style.height = '550px'
+    
+            aberta[4] = false
+
+        } else if(aberta[4] == false && aberta[5] == true && aberta[6] == true && aberta[7] == true && aberta[0] == true){
+            informacoes[4].style.display = 'block'
+            tamanhoCaixaInformacoes.style.height = '750px'
+            document.getElementById('info').style.height = '1100px'
+    
+            aberta[4] = true
+
+        } else if(aberta[4] == true && aberta[5] == true && aberta[6] == true && aberta[7] == true && aberta[0] == true){
+            informacoes[4].style.display = 'none'
+            tamanhoCaixaInformacoes.style.height = '650px'
+            document.getElementById('info').style.height = '1000px'
+    
+            aberta[4] = false
+        }
+
+        //Direita - 2
+        //=======================================
+
+        if(aberta[4] == false && aberta[5] == false && aberta[6] == false && aberta[7] == false && aberta[1] == true){
+            informacoes[4].style.display = 'block'
+            tamanhoCaixaInformacoes.style.height = '450px'
+    
+            aberta[4] = true
+
+        } else if(aberta[4] == true && aberta[5] == false && aberta[6] == false && aberta[7] == false && aberta[1] == true) {
+            informacoes[4].style.display = 'none'
+            tamanhoCaixaInformacoes.style.height = '450px'
+    
+            aberta[4] = false
+
+        } else if(aberta[4] == false && aberta[5] == true && aberta[6] == false && aberta[7] == false && aberta[1] == true){
+            informacoes[4].style.display = 'block'
+            tamanhoCaixaInformacoes.style.height = '540px'
+    
+            aberta[4] = true
+
+        } else if(aberta[4] == true && aberta[5] == true && aberta[6] == false && aberta[7] == false && aberta[1] == true){
+            informacoes[4].style.display = 'none'
+            tamanhoCaixaInformacoes.style.height = '450px'
+    
+            aberta[4] = false
+
+        } else if(aberta[4] == false && aberta[5] == false && aberta[6] == true && aberta[7] == false && aberta[1] == true){
+            informacoes[4].style.display = 'block'
+            tamanhoCaixaInformacoes.style.height = '550px'
+    
+            aberta[4] = true
+
+        } else if(aberta[4] == true && aberta[5] == false && aberta[6] == true && aberta[7] == false && aberta[1] == true){
+            informacoes[4].style.display = 'none'
+            tamanhoCaixaInformacoes.style.height = '450px'
+    
+            aberta[4] = false
+
+        } else if(aberta[4] == false && aberta[5] == false && aberta[6] == false && aberta[7] == true && aberta[1] == true){
+            informacoes[4].style.display = 'block'
+            tamanhoCaixaInformacoes.style.height = '550px'
+    
+            aberta[4] = true
+
+        } else if(aberta[4] == true && aberta[5] == false && aberta[6] == false && aberta[7] == true && aberta[1] == true){
+            informacoes[4].style.display = 'none'
+            tamanhoCaixaInformacoes.style.height = '450px'
+    
+            aberta[4] = false
+
+        } else if(aberta[4] == false && aberta[5] == true && aberta[6] == true && aberta[7] == false && aberta[1] == true){
+            informacoes[4].style.display = 'block'
+            tamanhoCaixaInformacoes.style.height = '620px'
+    
+            aberta[4] = true
+
+        } else if(aberta[4] == true && aberta[5] == true && aberta[6] == true && aberta[7] == false && aberta[1] == true){
+            informacoes[4].style.display = 'none'
+            tamanhoCaixaInformacoes.style.height = '520px'
+    
+            aberta[4] = false
+
+        } else if(aberta[4] == false && aberta[5] == false && aberta[6] == true && aberta[7] == true && aberta[1] == true){
+            informacoes[4].style.display = 'block'
+            tamanhoCaixaInformacoes.style.height = '650px'
+    
+            aberta[4] = true
+
+        } else if(aberta[4] == true && aberta[5] == false && aberta[6] == true && aberta[7] == true && aberta[1] == true){
+            informacoes[4].style.display = 'none'
+            tamanhoCaixaInformacoes.style.height = '550px'
+    
+            aberta[4] = false
+
+        } else if(aberta[4] == false && aberta[5] == true && aberta[6] == false && aberta[7] == true && aberta[1] == true){
+            informacoes[4].style.display = 'block'
+            tamanhoCaixaInformacoes.style.height = '640px'
+    
+            aberta[4] = true
+        
+        } else if(aberta[4] == true && aberta[5] == true && aberta[6] == false && aberta[7] == true && aberta[1] == true){
+            informacoes[4].style.display = 'none'
+            tamanhoCaixaInformacoes.style.height = '550px'
+    
+            aberta[4] = false
+
+        } else if(aberta[4] == false && aberta[5] == true && aberta[6] == true && aberta[7] == true && aberta[1] == true){
+            informacoes[4].style.display = 'block'
+            tamanhoCaixaInformacoes.style.height = '750px'
+            document.getElementById('info').style.height = '1100px'
+    
+            aberta[4] = true
+
+        } else if(aberta[4] == true && aberta[5] == true && aberta[6] == true && aberta[7] == true && aberta[1] == true){
+            informacoes[4].style.display = 'none'
+            tamanhoCaixaInformacoes.style.height = '650px'
+            document.getElementById('info').style.height = '1000px'
+    
+            aberta[4] = false
+        }
+
+        //Direita - 3
+        //=======================================
+
+        if(aberta[4] == false && aberta[5] == false && aberta[6] == false && aberta[7] == false && aberta[2] == true){
+            informacoes[4].style.display = 'block'
+            tamanhoCaixaInformacoes.style.height = '450px'
+    
+            aberta[4] = true
+
+        } else if(aberta[4] == true && aberta[5] == false && aberta[6] == false && aberta[7] == false && aberta[2] == true) {
+            informacoes[4].style.display = 'none'
+            tamanhoCaixaInformacoes.style.height = '450px'
+    
+            aberta[4] = false
+
+        } else if(aberta[4] == false && aberta[5] == true && aberta[6] == false && aberta[7] == false && aberta[2] == true){
+            informacoes[4].style.display = 'block'
+            tamanhoCaixaInformacoes.style.height = '540px'
+    
+            aberta[4] = true
+
+        } else if(aberta[4] == true && aberta[5] == true && aberta[6] == false && aberta[7] == false && aberta[2] == true){
+            informacoes[4].style.display = 'none'
+            tamanhoCaixaInformacoes.style.height = '450px'
+    
+            aberta[4] = false
+
+        } else if(aberta[4] == false && aberta[5] == false && aberta[6] == true && aberta[7] == false && aberta[2] == true){
+            informacoes[4].style.display = 'block'
+            tamanhoCaixaInformacoes.style.height = '550px'
+    
+            aberta[4] = true
+
+        } else if(aberta[4] == true && aberta[5] == false && aberta[6] == true && aberta[7] == false && aberta[2] == true){
+            informacoes[4].style.display = 'none'
+            tamanhoCaixaInformacoes.style.height = '450px'
+    
+            aberta[4] = false
+
+        } else if(aberta[4] == false && aberta[5] == false && aberta[6] == false && aberta[7] == true && aberta[2] == true){
+            informacoes[4].style.display = 'block'
+            tamanhoCaixaInformacoes.style.height = '550px'
+    
+            aberta[4] = true
+
+        } else if(aberta[4] == true && aberta[5] == false && aberta[6] == false && aberta[7] == true && aberta[2] == true){
+            informacoes[4].style.display = 'none'
+            tamanhoCaixaInformacoes.style.height = '450px'
+    
+            aberta[4] = false
+
+        } else if(aberta[4] == false && aberta[5] == true && aberta[6] == true && aberta[7] == false && aberta[2] == true){
+            informacoes[4].style.display = 'block'
+            tamanhoCaixaInformacoes.style.height = '620px'
+    
+            aberta[4] = true
+
+        } else if(aberta[4] == true && aberta[5] == true && aberta[6] == true && aberta[7] == false && aberta[2] == true){
+            informacoes[4].style.display = 'none'
+            tamanhoCaixaInformacoes.style.height = '520px'
+    
+            aberta[4] = false
+
+        } else if(aberta[4] == false && aberta[5] == false && aberta[6] == true && aberta[7] == true && aberta[2] == true){
+            informacoes[4].style.display = 'block'
+            tamanhoCaixaInformacoes.style.height = '650px'
+    
+            aberta[4] = true
+
+        } else if(aberta[4] == true && aberta[5] == false && aberta[6] == true && aberta[7] == true && aberta[2] == true){
+            informacoes[4].style.display = 'none'
+            tamanhoCaixaInformacoes.style.height = '550px'
+    
+            aberta[4] = false
+
+        } else if(aberta[4] == false && aberta[5] == true && aberta[6] == false && aberta[7] == true && aberta[2] == true){
+            informacoes[4].style.display = 'block'
+            tamanhoCaixaInformacoes.style.height = '640px'
+    
+            aberta[4] = true
+        
+        } else if(aberta[4] == true && aberta[5] == true && aberta[6] == false && aberta[7] == true && aberta[2] == true){
+            informacoes[4].style.display = 'none'
+            tamanhoCaixaInformacoes.style.height = '550px'
+    
+            aberta[4] = false
+
+        } else if(aberta[4] == false && aberta[5] == true && aberta[6] == true && aberta[7] == true && aberta[2] == true){
+            informacoes[4].style.display = 'block'
+            tamanhoCaixaInformacoes.style.height = '750px'
+            document.getElementById('info').style.height = '1100px'
+    
+            aberta[4] = true
+
+        } else if(aberta[4] == true && aberta[5] == true && aberta[6] == true && aberta[7] == true && aberta[2] == true){
+            informacoes[4].style.display = 'none'
+            tamanhoCaixaInformacoes.style.height = '650px'
+            document.getElementById('info').style.height = '1000px'
+    
+            aberta[4] = false
+        }
+
+        //Direita - 4
+        //=======================================
+
+        if(aberta[4] == false && aberta[5] == false && aberta[6] == false && aberta[7] == false && aberta[3] == true){
+            informacoes[4].style.display = 'block'
+            tamanhoCaixaInformacoes.style.height = '450px'
+    
+            aberta[4] = true
+
+        } else if(aberta[4] == true && aberta[5] == false && aberta[6] == false && aberta[7] == false && aberta[3] == true) {
+            informacoes[4].style.display = 'none'
+            tamanhoCaixaInformacoes.style.height = '450px'
+    
+            aberta[4] = false
+
+        } else if(aberta[4] == false && aberta[5] == true && aberta[6] == false && aberta[7] == false && aberta[3] == true){
+            informacoes[4].style.display = 'block'
+            tamanhoCaixaInformacoes.style.height = '540px'
+    
+            aberta[4] = true
+
+        } else if(aberta[4] == true && aberta[5] == true && aberta[6] == false && aberta[7] == false && aberta[3] == true){
+            informacoes[4].style.display = 'none'
+            tamanhoCaixaInformacoes.style.height = '450px'
+    
+            aberta[4] = false
+
+        } else if(aberta[4] == false && aberta[5] == false && aberta[6] == true && aberta[7] == false && aberta[3] == true){
+            informacoes[4].style.display = 'block'
+            tamanhoCaixaInformacoes.style.height = '550px'
+    
+            aberta[4] = true
+
+        } else if(aberta[4] == true && aberta[5] == false && aberta[6] == true && aberta[7] == false && aberta[3] == true){
+            informacoes[4].style.display = 'none'
+            tamanhoCaixaInformacoes.style.height = '450px'
+    
+            aberta[4] = false
+
+        } else if(aberta[4] == false && aberta[5] == false && aberta[6] == false && aberta[7] == true && aberta[3] == true){
+            informacoes[4].style.display = 'block'
+            tamanhoCaixaInformacoes.style.height = '550px'
+    
+            aberta[4] = true
+
+        } else if(aberta[4] == true && aberta[5] == false && aberta[6] == false && aberta[7] == true && aberta[3] == true){
+            informacoes[4].style.display = 'none'
+            tamanhoCaixaInformacoes.style.height = '450px'
+    
+            aberta[4] = false
+
+        } else if(aberta[4] == false && aberta[5] == true && aberta[6] == true && aberta[7] == false && aberta[3] == true){
+            informacoes[4].style.display = 'block'
+            tamanhoCaixaInformacoes.style.height = '620px'
+    
+            aberta[4] = true
+
+        } else if(aberta[4] == true && aberta[5] == true && aberta[6] == true && aberta[7] == false && aberta[3] == true){
+            informacoes[4].style.display = 'none'
+            tamanhoCaixaInformacoes.style.height = '520px'
+    
+            aberta[4] = false
+
+        } else if(aberta[4] == false && aberta[5] == false && aberta[6] == true && aberta[7] == true && aberta[3] == true){
+            informacoes[4].style.display = 'block'
+            tamanhoCaixaInformacoes.style.height = '650px'
+    
+            aberta[4] = true
+
+        } else if(aberta[4] == true && aberta[5] == false && aberta[6] == true && aberta[7] == true && aberta[3] == true){
+            informacoes[4].style.display = 'none'
+            tamanhoCaixaInformacoes.style.height = '550px'
+    
+            aberta[4] = false
+
+        } else if(aberta[4] == false && aberta[5] == true && aberta[6] == false && aberta[7] == true && aberta[3] == true){
+            informacoes[4].style.display = 'block'
+            tamanhoCaixaInformacoes.style.height = '640px'
+    
+            aberta[4] = true
+        
+        } else if(aberta[4] == true && aberta[5] == true && aberta[6] == false && aberta[7] == true && aberta[3] == true){
+            informacoes[4].style.display = 'none'
+            tamanhoCaixaInformacoes.style.height = '550px'
+    
+            aberta[4] = false
+
+        } else if(aberta[4] == false && aberta[5] == true && aberta[6] == true && aberta[7] == true && aberta[3] == true){
+            informacoes[4].style.display = 'block'
+            tamanhoCaixaInformacoes.style.height = '750px'
+            document.getElementById('info').style.height = '1100px'
+    
+            aberta[4] = true
+
+        } else if(aberta[4] == true && aberta[5] == true && aberta[6] == true && aberta[7] == true && aberta[3] == true){
             informacoes[4].style.display = 'none'
             tamanhoCaixaInformacoes.style.height = '650px'
             document.getElementById('info').style.height = '1000px'
@@ -2188,98 +2599,506 @@ function caixaInforma5(){
 
 function caixaInforma6(){
     if(largura2 >= 1200){
-        if(aberta[5] == false && aberta[4] == false && aberta[6] == false && aberta[7] == false){
+        if(aberta[5] == false && aberta[4] == false && aberta[6] == false && aberta[7] == false && aberta[0] == false && aberta[1] == false && aberta[2] == false && aberta[3] == false){
             informacoes[5].style.display = 'block'
             tamanhoCaixaInformacoes.style.height = '465px'
     
             aberta[5] = true
 
-        } else if(aberta[5] == true && aberta[4] == false && aberta[6] == false && aberta[7] == false) {
+        } else if(aberta[5] == true && aberta[4] == false && aberta[6] == false && aberta[7] == false && aberta[0] == false && aberta[1] == false && aberta[2] == false && aberta[3] == false) {
             informacoes[5].style.display = 'none'
             tamanhoCaixaInformacoes.style.height = '360px'
     
             aberta[5] = false
 
-        } else if(aberta[5] == false && aberta[4] == true && aberta[6] == false && aberta[7] == false){
+        } else if(aberta[5] == false && aberta[4] == true && aberta[6] == false && aberta[7] == false && aberta[0] == false && aberta[1] == false && aberta[2] == false && aberta[3] == false){
             informacoes[5].style.display = 'block'
             tamanhoCaixaInformacoes.style.height = '540px'
     
             aberta[5] = true
 
-        } else if(aberta[5] == true && aberta[4] == true && aberta[6] == false && aberta[7] == false){
+        } else if(aberta[5] == true && aberta[4] == true && aberta[6] == false && aberta[7] == false && aberta[0] == false && aberta[1] == false && aberta[2] == false && aberta[3] == false){
             informacoes[5].style.display = 'none'
             tamanhoCaixaInformacoes.style.height = '465px'
     
             aberta[5] = false
 
-        } else if(aberta[5] == false && aberta[4] == false && aberta[6] == true && aberta[7] == false){
+        } else if(aberta[5] == false && aberta[4] == false && aberta[6] == true && aberta[7] == false && aberta[0] == false && aberta[1] == false && aberta[2] == false && aberta[3] == false){
             informacoes[5].style.display = 'block'
             tamanhoCaixaInformacoes.style.height = '550px'
     
             aberta[5] = true
 
-        } else if(aberta[5] == true && aberta[4] == false && aberta[6] == true && aberta[7] == false){
+        } else if(aberta[5] == true && aberta[4] == false && aberta[6] == true && aberta[7] == false && aberta[0] == false && aberta[1] == false && aberta[2] == false && aberta[3] == false){
             informacoes[5].style.display = 'none'
             tamanhoCaixaInformacoes.style.height = '465px'
     
             aberta[5] = false
 
-        } else if(aberta[5] == false && aberta[4] == false && aberta[6] == false && aberta[7] == true){
+        } else if(aberta[5] == false && aberta[4] == false && aberta[6] == false && aberta[7] == true && aberta[0] == false && aberta[1] == false && aberta[2] == false && aberta[3] == false){
             informacoes[5].style.display = 'block'
             tamanhoCaixaInformacoes.style.height = '550px'
     
             aberta[5] = true
 
-        } else if(aberta[5] == true && aberta[4] == false && aberta[6] == false && aberta[7] == true){
+        } else if(aberta[5] == true && aberta[4] == false && aberta[6] == false && aberta[7] == true && aberta[0] == false && aberta[1] == false && aberta[2] == false && aberta[3] == false){
             informacoes[5].style.display = 'none'
             tamanhoCaixaInformacoes.style.height = '465px'
     
             aberta[5] = false
 
-        } else if(aberta[5] == false && aberta[4] == true && aberta[6] == true && aberta[7] == false){
+        } else if(aberta[5] == false && aberta[4] == true && aberta[6] == true && aberta[7] == false && aberta[0] == false && aberta[1] == false && aberta[2] == false && aberta[3] == false){
             informacoes[5].style.display = 'block'
             tamanhoCaixaInformacoes.style.height = '650px'
     
             aberta[5] = true
 
-        } else if(aberta[5] == true && aberta[4] == true && aberta[6] == true && aberta[7] == false){
+        } else if(aberta[5] == true && aberta[4] == true && aberta[6] == true && aberta[7] == false && aberta[0] == false && aberta[1] == false && aberta[2] == false && aberta[3] == false){
             informacoes[5].style.display = 'none'
             tamanhoCaixaInformacoes.style.height = '540px'
     
             aberta[5] = false
 
-        } else if(aberta[5] == false && aberta[4] == false && aberta[6] == true && aberta[7] == true){
+        } else if(aberta[5] == false && aberta[4] == false && aberta[6] == true && aberta[7] == true && aberta[0] == false && aberta[1] == false && aberta[2] == false && aberta[3] == false){
             informacoes[5].style.display = 'block'
             tamanhoCaixaInformacoes.style.height = '650px'
     
             aberta[5] = true
 
-        } else if(aberta[5] == true && aberta[4] == false && aberta[6] == true && aberta[7] == true){
+        } else if(aberta[5] == true && aberta[4] == false && aberta[6] == true && aberta[7] == true && aberta[0] == false && aberta[1] == false && aberta[2] == false && aberta[3] == false){
             informacoes[5].style.display = 'none'
             tamanhoCaixaInformacoes.style.height = '550px'
     
             aberta[5] = false
 
-        } else if(aberta[5] == false && aberta[4] == true && aberta[6] == false && aberta[7] == true){
+        } else if(aberta[5] == false && aberta[4] == true && aberta[6] == false && aberta[7] == true && aberta[0] == false && aberta[1] == false && aberta[2] == false && aberta[3] == false){
             informacoes[5].style.display = 'block'
             tamanhoCaixaInformacoes.style.height = '640px'
     
             aberta[5] = true
         
-        } else if(aberta[5] == true && aberta[4] == true && aberta[6] == false && aberta[7] == true){
+        } else if(aberta[5] == true && aberta[4] == true && aberta[6] == false && aberta[7] == true && aberta[0] == false && aberta[1] == false && aberta[2] == false && aberta[3] == false){
             informacoes[5].style.display = 'none'
             tamanhoCaixaInformacoes.style.height = '550px'
     
             aberta[5] = false
 
-        } else if(aberta[5] == false && aberta[4] == true && aberta[6] == true && aberta[7] == true){
+        } else if(aberta[5] == false && aberta[4] == true && aberta[6] == true && aberta[7] == true && aberta[0] == false && aberta[1] == false && aberta[2] == false && aberta[3] == false){
             informacoes[5].style.display = 'block'
             tamanhoCaixaInformacoes.style.height = '750px'
             document.getElementById('info').style.height = '1100px'
     
             aberta[5] = true
 
-        } else if(aberta[5] == true && aberta[4] == true && aberta[6] == true && aberta[7] == true){
+        } else if(aberta[5] == true && aberta[4] == true && aberta[6] == true && aberta[7] == true && aberta[0] == false && aberta[1] == false && aberta[2] == false && aberta[3] == false){
+            informacoes[5].style.display = 'none'
+            tamanhoCaixaInformacoes.style.height = '650px'
+            document.getElementById('info').style.height = '1000px'
+    
+            aberta[5] = false
+        }
+
+        //Direita - 1
+        //=======================================
+
+        if(aberta[5] == false && aberta[4] == false && aberta[6] == false && aberta[7] == false && aberta[0] == true){
+            informacoes[5].style.display = 'block'
+            tamanhoCaixaInformacoes.style.height = '450px'
+    
+            aberta[5] = true
+
+        } else if(aberta[5] == true && aberta[4] == false && aberta[6] == false && aberta[7] == false && aberta[0] == true) {
+            informacoes[5].style.display = 'none'
+            tamanhoCaixaInformacoes.style.height = '450px'
+    
+            aberta[5] = false
+
+        } else if(aberta[5] == false && aberta[4] == true && aberta[6] == false && aberta[7] == false && aberta[0] == true){
+            informacoes[5].style.display = 'block'
+            tamanhoCaixaInformacoes.style.height = '540px'
+    
+            aberta[5] = true
+
+        } else if(aberta[5] == true && aberta[4] == true && aberta[6] == false && aberta[7] == false && aberta[0] == true){
+            informacoes[5].style.display = 'none'
+            tamanhoCaixaInformacoes.style.height = '450px'
+    
+            aberta[5] = false
+
+        } else if(aberta[5] == false && aberta[4] == false && aberta[6] == true && aberta[7] == false && aberta[0] == true){
+            informacoes[5].style.display = 'block'
+            tamanhoCaixaInformacoes.style.height = '550px'
+    
+            aberta[5] = true
+
+        } else if(aberta[5] == true && aberta[4] == false && aberta[6] == true && aberta[7] == false && aberta[0] == true){
+            informacoes[5].style.display = 'none'
+            tamanhoCaixaInformacoes.style.height = '450px'
+    
+            aberta[5] = false
+
+        } else if(aberta[5] == false && aberta[4] == false && aberta[6] == false && aberta[7] == true && aberta[0] == true){
+            informacoes[5].style.display = 'block'
+            tamanhoCaixaInformacoes.style.height = '550px'
+    
+            aberta[5] = true
+
+        } else if(aberta[5] == true && aberta[4] == false && aberta[6] == false && aberta[7] == true && aberta[0] == true){
+            informacoes[5].style.display = 'none'
+            tamanhoCaixaInformacoes.style.height = '450px'
+    
+            aberta[5] = false
+
+        } else if(aberta[5] == false && aberta[4] == true && aberta[6] == true && aberta[7] == false && aberta[0] == true){
+            informacoes[5].style.display = 'block'
+            tamanhoCaixaInformacoes.style.height = '620px'
+    
+            aberta[5] = true
+
+        } else if(aberta[5] == true && aberta[4] == true && aberta[6] == true && aberta[7] == false && aberta[0] == true){
+            informacoes[5].style.display = 'none'
+            tamanhoCaixaInformacoes.style.height = '520px'
+    
+            aberta[5] = false
+
+        } else if(aberta[5] == false && aberta[4] == false && aberta[6] == true && aberta[7] == true && aberta[0] == true){
+            informacoes[5].style.display = 'block'
+            tamanhoCaixaInformacoes.style.height = '650px'
+    
+            aberta[5] = true
+
+        } else if(aberta[5] == true && aberta[4] == false && aberta[6] == true && aberta[7] == true && aberta[0] == true){
+            informacoes[5].style.display = 'none'
+            tamanhoCaixaInformacoes.style.height = '550px'
+    
+            aberta[5] = false
+
+        } else if(aberta[5] == false && aberta[4] == true && aberta[6] == false && aberta[7] == true && aberta[0] == true){
+            informacoes[5].style.display = 'block'
+            tamanhoCaixaInformacoes.style.height = '640px'
+    
+            aberta[5] = true
+        
+        } else if(aberta[5] == true && aberta[4] == true && aberta[6] == false && aberta[7] == true && aberta[0] == true){
+            informacoes[5].style.display = 'none'
+            tamanhoCaixaInformacoes.style.height = '550px'
+    
+            aberta[5] = false
+
+        } else if(aberta[5] == false && aberta[4] == true && aberta[6] == true && aberta[7] == true && aberta[0] == true){
+            informacoes[5].style.display = 'block'
+            tamanhoCaixaInformacoes.style.height = '750px'
+            document.getElementById('info').style.height = '1100px'
+    
+            aberta[5] = true
+
+        } else if(aberta[5] == true && aberta[4] == true && aberta[6] == true && aberta[7] == true && aberta[0] == true){
+            informacoes[5].style.display = 'none'
+            tamanhoCaixaInformacoes.style.height = '650px'
+            document.getElementById('info').style.height = '1000px'
+    
+            aberta[5] = false
+        }
+
+        //Direita - 2
+        //=======================================
+
+        if(aberta[5] == false && aberta[4] == false && aberta[6] == false && aberta[7] == false && aberta[1] == true){
+            informacoes[5].style.display = 'block'
+            tamanhoCaixaInformacoes.style.height = '450px'
+    
+            aberta[5] = true
+
+        } else if(aberta[5] == true && aberta[4] == false && aberta[6] == false && aberta[7] == false && aberta[1] == true) {
+            informacoes[5].style.display = 'none'
+            tamanhoCaixaInformacoes.style.height = '450px'
+    
+            aberta[5] = false
+
+        } else if(aberta[5] == false && aberta[4] == true && aberta[6] == false && aberta[7] == false && aberta[1] == true){
+            informacoes[5].style.display = 'block'
+            tamanhoCaixaInformacoes.style.height = '540px'
+    
+            aberta[5] = true
+
+        } else if(aberta[5] == true && aberta[4] == true && aberta[6] == false && aberta[7] == false && aberta[1] == true){
+            informacoes[5].style.display = 'none'
+            tamanhoCaixaInformacoes.style.height = '450px'
+    
+            aberta[5] = false
+
+        } else if(aberta[5] == false && aberta[4] == false && aberta[6] == true && aberta[7] == false && aberta[1] == true){
+            informacoes[5].style.display = 'block'
+            tamanhoCaixaInformacoes.style.height = '550px'
+    
+            aberta[5] = true
+
+        } else if(aberta[5] == true && aberta[4] == false && aberta[6] == true && aberta[7] == false && aberta[1] == true){
+            informacoes[5].style.display = 'none'
+            tamanhoCaixaInformacoes.style.height = '450px'
+    
+            aberta[5] = false
+
+        } else if(aberta[5] == false && aberta[4] == false && aberta[6] == false && aberta[7] == true && aberta[1] == true){
+            informacoes[5].style.display = 'block'
+            tamanhoCaixaInformacoes.style.height = '550px'
+    
+            aberta[5] = true
+
+        } else if(aberta[5] == true && aberta[4] == false && aberta[6] == false && aberta[7] == true && aberta[1] == true){
+            informacoes[5].style.display = 'none'
+            tamanhoCaixaInformacoes.style.height = '450px'
+    
+            aberta[5] = false
+
+        } else if(aberta[5] == false && aberta[4] == true && aberta[6] == true && aberta[7] == false && aberta[1] == true){
+            informacoes[5].style.display = 'block'
+            tamanhoCaixaInformacoes.style.height = '620px'
+    
+            aberta[5] = true
+
+        } else if(aberta[5] == true && aberta[4] == true && aberta[6] == true && aberta[7] == false && aberta[1] == true){
+            informacoes[5].style.display = 'none'
+            tamanhoCaixaInformacoes.style.height = '520px'
+    
+            aberta[5] = false
+
+        } else if(aberta[5] == false && aberta[4] == false && aberta[6] == true && aberta[7] == true && aberta[1] == true){
+            informacoes[5].style.display = 'block'
+            tamanhoCaixaInformacoes.style.height = '650px'
+    
+            aberta[5] = true
+
+        } else if(aberta[5] == true && aberta[4] == false && aberta[6] == true && aberta[7] == true && aberta[1] == true){
+            informacoes[5].style.display = 'none'
+            tamanhoCaixaInformacoes.style.height = '550px'
+    
+            aberta[5] = false
+
+        } else if(aberta[5] == false && aberta[4] == true && aberta[6] == false && aberta[7] == true && aberta[1] == true){
+            informacoes[5].style.display = 'block'
+            tamanhoCaixaInformacoes.style.height = '640px'
+    
+            aberta[5] = true
+        
+        } else if(aberta[5] == true && aberta[4] == true && aberta[6] == false && aberta[7] == true && aberta[1] == true){
+            informacoes[5].style.display = 'none'
+            tamanhoCaixaInformacoes.style.height = '550px'
+    
+            aberta[5] = false
+
+        } else if(aberta[5] == false && aberta[4] == true && aberta[6] == true && aberta[7] == true && aberta[1] == true){
+            informacoes[5].style.display = 'block'
+            tamanhoCaixaInformacoes.style.height = '750px'
+            document.getElementById('info').style.height = '1100px'
+    
+            aberta[5] = true
+
+        } else if(aberta[5] == true && aberta[4] == true && aberta[6] == true && aberta[7] == true && aberta[1] == true){
+            informacoes[5].style.display = 'none'
+            tamanhoCaixaInformacoes.style.height = '650px'
+            document.getElementById('info').style.height = '1000px'
+    
+            aberta[5] = false
+        }
+
+        //Direita - 3
+        //=======================================
+
+        if(aberta[5] == false && aberta[4] == false && aberta[6] == false && aberta[7] == false && aberta[2] == true){
+            informacoes[5].style.display = 'block'
+            tamanhoCaixaInformacoes.style.height = '450px'
+    
+            aberta[5] = true
+
+        } else if(aberta[5] == true && aberta[4] == false && aberta[6] == false && aberta[7] == false && aberta[2] == true) {
+            informacoes[5].style.display = 'none'
+            tamanhoCaixaInformacoes.style.height = '450px'
+    
+            aberta[5] = false
+
+        } else if(aberta[5] == false && aberta[4] == true && aberta[6] == false && aberta[7] == false && aberta[2] == true){
+            informacoes[5].style.display = 'block'
+            tamanhoCaixaInformacoes.style.height = '540px'
+    
+            aberta[5] = true
+
+        } else if(aberta[5] == true && aberta[4] == true && aberta[6] == false && aberta[7] == false && aberta[2] == true){
+            informacoes[5].style.display = 'none'
+            tamanhoCaixaInformacoes.style.height = '450px'
+    
+            aberta[5] = false
+
+        } else if(aberta[5] == false && aberta[4] == false && aberta[6] == true && aberta[7] == false && aberta[2] == true){
+            informacoes[5].style.display = 'block'
+            tamanhoCaixaInformacoes.style.height = '550px'
+    
+            aberta[5] = true
+
+        } else if(aberta[5] == true && aberta[4] == false && aberta[6] == true && aberta[7] == false && aberta[2] == true){
+            informacoes[5].style.display = 'none'
+            tamanhoCaixaInformacoes.style.height = '450px'
+    
+            aberta[5] = false
+
+        } else if(aberta[5] == false && aberta[4] == false && aberta[6] == false && aberta[7] == true && aberta[2] == true){
+            informacoes[5].style.display = 'block'
+            tamanhoCaixaInformacoes.style.height = '550px'
+    
+            aberta[5] = true
+
+        } else if(aberta[5] == true && aberta[4] == false && aberta[6] == false && aberta[7] == true && aberta[2] == true){
+            informacoes[5].style.display = 'none'
+            tamanhoCaixaInformacoes.style.height = '450px'
+    
+            aberta[5] = false
+
+        } else if(aberta[5] == false && aberta[4] == true && aberta[6] == true && aberta[7] == false && aberta[2] == true){
+            informacoes[5].style.display = 'block'
+            tamanhoCaixaInformacoes.style.height = '620px'
+    
+            aberta[5] = true
+
+        } else if(aberta[5] == true && aberta[4] == true && aberta[6] == true && aberta[7] == false && aberta[2] == true){
+            informacoes[5].style.display = 'none'
+            tamanhoCaixaInformacoes.style.height = '520px'
+    
+            aberta[5] = false
+
+        } else if(aberta[5] == false && aberta[4] == false && aberta[6] == true && aberta[7] == true && aberta[2] == true){
+            informacoes[5].style.display = 'block'
+            tamanhoCaixaInformacoes.style.height = '650px'
+    
+            aberta[5] = true
+
+        } else if(aberta[5] == true && aberta[4] == false && aberta[6] == true && aberta[7] == true && aberta[2] == true){
+            informacoes[5].style.display = 'none'
+            tamanhoCaixaInformacoes.style.height = '550px'
+    
+            aberta[5] = false
+
+        } else if(aberta[5] == false && aberta[4] == true && aberta[6] == false && aberta[7] == true && aberta[2] == true){
+            informacoes[5].style.display = 'block'
+            tamanhoCaixaInformacoes.style.height = '640px'
+    
+            aberta[5] = true
+        
+        } else if(aberta[5] == true && aberta[4] == true && aberta[6] == false && aberta[7] == true && aberta[2] == true){
+            informacoes[5].style.display = 'none'
+            tamanhoCaixaInformacoes.style.height = '550px'
+    
+            aberta[5] = false
+
+        } else if(aberta[5] == false && aberta[4] == true && aberta[6] == true && aberta[7] == true && aberta[2] == true){
+            informacoes[5].style.display = 'block'
+            tamanhoCaixaInformacoes.style.height = '750px'
+            document.getElementById('info').style.height = '1100px'
+    
+            aberta[5] = true
+
+        } else if(aberta[5] == true && aberta[4] == true && aberta[6] == true && aberta[7] == true && aberta[2] == true){
+            informacoes[5].style.display = 'none'
+            tamanhoCaixaInformacoes.style.height = '650px'
+            document.getElementById('info').style.height = '1000px'
+    
+            aberta[5] = false
+        }
+
+        //Direita - 4
+        //=======================================
+
+        if(aberta[5] == false && aberta[4] == false && aberta[6] == false && aberta[7] == false && aberta[3] == true){
+            informacoes[5].style.display = 'block'
+            tamanhoCaixaInformacoes.style.height = '450px'
+    
+            aberta[5] = true
+
+        } else if(aberta[5] == true && aberta[4] == false && aberta[6] == false && aberta[7] == false && aberta[3] == true) {
+            informacoes[5].style.display = 'none'
+            tamanhoCaixaInformacoes.style.height = '450px'
+    
+            aberta[5] = false
+
+        } else if(aberta[5] == false && aberta[4] == true && aberta[6] == false && aberta[7] == false && aberta[3] == true){
+            informacoes[5].style.display = 'block'
+            tamanhoCaixaInformacoes.style.height = '540px'
+    
+            aberta[5] = true
+
+        } else if(aberta[5] == true && aberta[4] == true && aberta[6] == false && aberta[7] == false && aberta[3] == true){
+            informacoes[5].style.display = 'none'
+            tamanhoCaixaInformacoes.style.height = '450px'
+    
+            aberta[5] = false
+
+        } else if(aberta[5] == false && aberta[4] == false && aberta[6] == true && aberta[7] == false && aberta[3] == true){
+            informacoes[5].style.display = 'block'
+            tamanhoCaixaInformacoes.style.height = '550px'
+    
+            aberta[5] = true
+
+        } else if(aberta[5] == true && aberta[4] == false && aberta[6] == true && aberta[7] == false && aberta[3] == true){
+            informacoes[5].style.display = 'none'
+            tamanhoCaixaInformacoes.style.height = '450px'
+    
+            aberta[5] = false
+
+        } else if(aberta[5] == false && aberta[4] == false && aberta[6] == false && aberta[7] == true && aberta[3] == true){
+            informacoes[5].style.display = 'block'
+            tamanhoCaixaInformacoes.style.height = '550px'
+    
+            aberta[5] = true
+
+        } else if(aberta[5] == true && aberta[4] == false && aberta[6] == false && aberta[7] == true && aberta[3] == true){
+            informacoes[5].style.display = 'none'
+            tamanhoCaixaInformacoes.style.height = '450px'
+    
+            aberta[5] = false
+
+        } else if(aberta[5] == false && aberta[4] == true && aberta[6] == true && aberta[7] == false && aberta[3] == true){
+            informacoes[5].style.display = 'block'
+            tamanhoCaixaInformacoes.style.height = '620px'
+    
+            aberta[5] = true
+
+        } else if(aberta[5] == true && aberta[4] == true && aberta[6] == true && aberta[7] == false && aberta[3] == true){
+            informacoes[5].style.display = 'none'
+            tamanhoCaixaInformacoes.style.height = '520px'
+    
+            aberta[5] = false
+
+        } else if(aberta[5] == false && aberta[4] == false && aberta[6] == true && aberta[7] == true && aberta[3] == true){
+            informacoes[5].style.display = 'block'
+            tamanhoCaixaInformacoes.style.height = '650px'
+    
+            aberta[5] = true
+
+        } else if(aberta[5] == true && aberta[4] == false && aberta[6] == true && aberta[7] == true && aberta[3] == true){
+            informacoes[5].style.display = 'none'
+            tamanhoCaixaInformacoes.style.height = '550px'
+    
+            aberta[5] = false
+
+        } else if(aberta[5] == false && aberta[4] == true && aberta[6] == false && aberta[7] == true && aberta[3] == true){
+            informacoes[5].style.display = 'block'
+            tamanhoCaixaInformacoes.style.height = '640px'
+    
+            aberta[5] = true
+        
+        } else if(aberta[5] == true && aberta[4] == true && aberta[6] == false && aberta[7] == true && aberta[3] == true){
+            informacoes[5].style.display = 'none'
+            tamanhoCaixaInformacoes.style.height = '550px'
+    
+            aberta[5] = false
+
+        } else if(aberta[5] == false && aberta[4] == true && aberta[6] == true && aberta[7] == true && aberta[3] == true){
+            informacoes[5].style.display = 'block'
+            tamanhoCaixaInformacoes.style.height = '750px'
+            document.getElementById('info').style.height = '1100px'
+    
+            aberta[5] = true
+
+        } else if(aberta[5] == true && aberta[4] == true && aberta[6] == true && aberta[7] == true && aberta[3] == true){
             informacoes[5].style.display = 'none'
             tamanhoCaixaInformacoes.style.height = '650px'
             document.getElementById('info').style.height = '1000px'
@@ -2291,98 +3110,506 @@ function caixaInforma6(){
 
 function caixaInforma7(){
     if(largura2 >= 1200){
-        if(aberta[6] == false && aberta[5] == false && aberta[4] == false && aberta[7] == false){
+        if(aberta[6] == false && aberta[5] == false && aberta[5] == false && aberta[7] == false && aberta[0] == false && aberta[1] == false && aberta[2] == false && aberta[3] == false){
             informacoes[6].style.display = 'block'
             tamanhoCaixaInformacoes.style.height = '465px'
     
             aberta[6] = true
 
-        } else if(aberta[6] == true && aberta[5] == false && aberta[4] == false && aberta[7] == false) {
+        } else if(aberta[6] == true && aberta[5] == false && aberta[4] == false && aberta[7] == false && aberta[0] == false && aberta[1] == false && aberta[2] == false && aberta[3] == false) {
             informacoes[6].style.display = 'none'
             tamanhoCaixaInformacoes.style.height = '360px'
     
             aberta[6] = false
 
-        } else if(aberta[6] == false && aberta[5] == true && aberta[4] == false && aberta[7] == false){
+        } else if(aberta[6] == false && aberta[5] == true && aberta[4] == false && aberta[7] == false && aberta[0] == false && aberta[1] == false && aberta[2] == false && aberta[3] == false){
             informacoes[6].style.display = 'block'
             tamanhoCaixaInformacoes.style.height = '540px'
     
             aberta[6] = true
 
-        } else if(aberta[6] == true && aberta[5] == true && aberta[4] == false && aberta[7] == false){
+        } else if(aberta[6] == true && aberta[5] == true && aberta[4] == false && aberta[7] == false && aberta[0] == false && aberta[1] == false && aberta[2] == false && aberta[3] == false){
             informacoes[6].style.display = 'none'
             tamanhoCaixaInformacoes.style.height = '465px'
     
             aberta[6] = false
 
-        } else if(aberta[6] == false && aberta[5] == false && aberta[4] == true && aberta[7] == false){
+        } else if(aberta[6] == false && aberta[5] == false && aberta[4] == true && aberta[7] == false && aberta[0] == false && aberta[1] == false && aberta[2] == false && aberta[3] == false){
             informacoes[6].style.display = 'block'
             tamanhoCaixaInformacoes.style.height = '550px'
     
             aberta[6] = true
 
-        } else if(aberta[6] == true && aberta[5] == false && aberta[4] == true && aberta[7] == false){
+        } else if(aberta[6] == true && aberta[5] == false && aberta[4] == true && aberta[7] == false && aberta[0] == false && aberta[1] == false && aberta[2] == false && aberta[3] == false){
             informacoes[6].style.display = 'none'
             tamanhoCaixaInformacoes.style.height = '465px'
     
             aberta[6] = false
 
-        } else if(aberta[6] == false && aberta[5] == false && aberta[4] == false && aberta[7] == true){
+        } else if(aberta[6] == false && aberta[5] == false && aberta[4] == false && aberta[7] == true && aberta[0] == false && aberta[1] == false && aberta[2] == false && aberta[3] == false){
             informacoes[6].style.display = 'block'
             tamanhoCaixaInformacoes.style.height = '550px'
     
             aberta[6] = true
 
-        } else if(aberta[6] == true && aberta[5] == false && aberta[4] == false && aberta[7] == true){
+        } else if(aberta[6] == true && aberta[5] == false && aberta[4] == false && aberta[7] == true && aberta[0] == false && aberta[1] == false && aberta[2] == false && aberta[3] == false){
             informacoes[6].style.display = 'none'
             tamanhoCaixaInformacoes.style.height = '465px'
     
             aberta[6] = false
 
-        } else if(aberta[6] == false && aberta[5] == true && aberta[4] == true && aberta[7] == false){
+        } else if(aberta[6] == false && aberta[5] == true && aberta[4] == true && aberta[7] == false && aberta[0] == false && aberta[1] == false && aberta[2] == false && aberta[3] == false){
             informacoes[6].style.display = 'block'
             tamanhoCaixaInformacoes.style.height = '650px'
     
             aberta[6] = true
 
-        } else if(aberta[6] == true && aberta[5] == true && aberta[4] == true && aberta[7] == false){
+        } else if(aberta[6] == true && aberta[5] == true && aberta[4] == true && aberta[7] == false && aberta[0] == false && aberta[1] == false && aberta[2] == false && aberta[3] == false){
             informacoes[6].style.display = 'none'
             tamanhoCaixaInformacoes.style.height = '540px'
     
             aberta[6] = false
 
-        } else if(aberta[6] == false && aberta[5] == false && aberta[4] == true && aberta[7] == true){
+        } else if(aberta[6] == false && aberta[5] == false && aberta[4] == true && aberta[7] == true && aberta[0] == false && aberta[1] == false && aberta[2] == false && aberta[3] == false){
             informacoes[6].style.display = 'block'
             tamanhoCaixaInformacoes.style.height = '650px'
     
             aberta[6] = true
 
-        } else if(aberta[6] == true && aberta[5] == false && aberta[4] == true && aberta[7] == true){
+        } else if(aberta[6] == true && aberta[5] == false && aberta[4] == true && aberta[7] == true && aberta[0] == false && aberta[1] == false && aberta[2] == false && aberta[3] == false){
             informacoes[6].style.display = 'none'
             tamanhoCaixaInformacoes.style.height = '550px'
     
             aberta[6] = false
 
-        } else if(aberta[6] == false && aberta[5] == true && aberta[4] == false && aberta[7] == true){
+        } else if(aberta[6] == false && aberta[5] == true && aberta[4] == false && aberta[7] == true && aberta[0] == false && aberta[1] == false && aberta[2] == false && aberta[3] == false){
             informacoes[6].style.display = 'block'
             tamanhoCaixaInformacoes.style.height = '640px'
     
             aberta[6] = true
         
-        } else if(aberta[6] == true && aberta[5] == true && aberta[4] == false && aberta[7] == true){
+        } else if(aberta[6] == true && aberta[5] == true && aberta[4] == false && aberta[7] == true && aberta[0] == false && aberta[1] == false && aberta[2] == false && aberta[3] == false){
             informacoes[6].style.display = 'none'
             tamanhoCaixaInformacoes.style.height = '550px'
     
             aberta[6] = false
 
-        } else if(aberta[6] == false && aberta[5] == true && aberta[4] == true && aberta[7] == true){
+        } else if(aberta[6] == false && aberta[5] == true && aberta[4] == true && aberta[7] == true && aberta[0] == false && aberta[1] == false && aberta[2] == false && aberta[3] == false){
             informacoes[6].style.display = 'block'
             tamanhoCaixaInformacoes.style.height = '750px'
             document.getElementById('info').style.height = '1100px'
     
             aberta[6] = true
 
-        } else if(aberta[6] == true && aberta[5] == true && aberta[4] == true && aberta[7] == true){
+        } else if(aberta[6] == true && aberta[5] == true && aberta[4] == true && aberta[7] == true && aberta[0] == false && aberta[1] == false && aberta[2] == false && aberta[3] == false){
+            informacoes[6].style.display = 'none'
+            tamanhoCaixaInformacoes.style.height = '650px'
+            document.getElementById('info').style.height = '1000px'
+    
+            aberta[6] = false
+        }
+
+        //Direita - 1
+        //=======================================
+
+        if(aberta[6] == false && aberta[5] == false && aberta[4] == false && aberta[7] == false && aberta[0] == true){
+            informacoes[6].style.display = 'block'
+            tamanhoCaixaInformacoes.style.height = '450px'
+    
+            aberta[6] = true
+
+        } else if(aberta[6] == true && aberta[5] == false && aberta[4] == false && aberta[7] == false && aberta[0] == true) {
+            informacoes[6].style.display = 'none'
+            tamanhoCaixaInformacoes.style.height = '450px'
+    
+            aberta[6] = false
+
+        } else if(aberta[6] == false && aberta[5] == true && aberta[4] == false && aberta[7] == false && aberta[0] == true){
+            informacoes[6].style.display = 'block'
+            tamanhoCaixaInformacoes.style.height = '540px'
+    
+            aberta[6] = true
+
+        } else if(aberta[6] == true && aberta[5] == true && aberta[4] == false && aberta[7] == false && aberta[0] == true){
+            informacoes[6].style.display = 'none'
+            tamanhoCaixaInformacoes.style.height = '450px'
+    
+            aberta[6] = false
+
+        } else if(aberta[6] == false && aberta[5] == false && aberta[4] == true && aberta[7] == false && aberta[0] == true){
+            informacoes[6].style.display = 'block'
+            tamanhoCaixaInformacoes.style.height = '550px'
+    
+            aberta[6] = true
+
+        } else if(aberta[6] == true && aberta[5] == false && aberta[4] == true && aberta[7] == false && aberta[0] == true){
+            informacoes[6].style.display = 'none'
+            tamanhoCaixaInformacoes.style.height = '450px'
+    
+            aberta[6] = false
+
+        } else if(aberta[6] == false && aberta[5] == false && aberta[4] == false && aberta[7] == true && aberta[0] == true){
+            informacoes[6].style.display = 'block'
+            tamanhoCaixaInformacoes.style.height = '550px'
+    
+            aberta[6] = true
+
+        } else if(aberta[6] == true && aberta[5] == false && aberta[4] == false && aberta[7] == true && aberta[0] == true){
+            informacoes[6].style.display = 'none'
+            tamanhoCaixaInformacoes.style.height = '450px'
+    
+            aberta[6] = false
+
+        } else if(aberta[6] == false && aberta[5] == true && aberta[4] == true && aberta[7] == false && aberta[0] == true){
+            informacoes[6].style.display = 'block'
+            tamanhoCaixaInformacoes.style.height = '620px'
+    
+            aberta[6] = true
+
+        } else if(aberta[6] == true && aberta[5] == true && aberta[4] == true && aberta[7] == false && aberta[0] == true){
+            informacoes[6].style.display = 'none'
+            tamanhoCaixaInformacoes.style.height = '520px'
+    
+            aberta[6] = false
+
+        } else if(aberta[6] == false && aberta[5] == false && aberta[4] == true && aberta[7] == true && aberta[0] == true){
+            informacoes[6].style.display = 'block'
+            tamanhoCaixaInformacoes.style.height = '650px'
+    
+            aberta[6] = true
+
+        } else if(aberta[6] == true && aberta[5] == false && aberta[4] == true && aberta[7] == true && aberta[0] == true){
+            informacoes[6].style.display = 'none'
+            tamanhoCaixaInformacoes.style.height = '550px'
+    
+            aberta[6] = false
+
+        } else if(aberta[6] == false && aberta[5] == true && aberta[4] == false && aberta[7] == true && aberta[0] == true){
+            informacoes[6].style.display = 'block'
+            tamanhoCaixaInformacoes.style.height = '640px'
+    
+            aberta[6] = true
+        
+        } else if(aberta[6] == true && aberta[5] == true && aberta[4] == false && aberta[7] == true && aberta[0] == true){
+            informacoes[6].style.display = 'none'
+            tamanhoCaixaInformacoes.style.height = '550px'
+    
+            aberta[6] = false
+
+        } else if(aberta[6] == false && aberta[5] == true && aberta[4] == true && aberta[7] == true && aberta[0] == true){
+            informacoes[6].style.display = 'block'
+            tamanhoCaixaInformacoes.style.height = '750px'
+            document.getElementById('info').style.height = '1100px'
+    
+            aberta[6] = true
+
+        } else if(aberta[6] == true && aberta[5] == true && aberta[4] == true && aberta[7] == true && aberta[0] == true){
+            informacoes[6].style.display = 'none'
+            tamanhoCaixaInformacoes.style.height = '650px'
+            document.getElementById('info').style.height = '1000px'
+    
+            aberta[6] = false
+        }
+
+        //Direita - 2
+        //=======================================
+
+        if(aberta[6] == false && aberta[5] == false && aberta[4] == false && aberta[7] == false && aberta[1] == true){
+            informacoes[6].style.display = 'block'
+            tamanhoCaixaInformacoes.style.height = '450px'
+    
+            aberta[6] = true
+
+        } else if(aberta[6] == true && aberta[5] == false && aberta[4] == false && aberta[7] == false && aberta[1] == true) {
+            informacoes[6].style.display = 'none'
+            tamanhoCaixaInformacoes.style.height = '450px'
+    
+            aberta[6] = false
+
+        } else if(aberta[6] == false && aberta[5] == true && aberta[4] == false && aberta[7] == false && aberta[1] == true){
+            informacoes[6].style.display = 'block'
+            tamanhoCaixaInformacoes.style.height = '540px'
+    
+            aberta[6] = true
+
+        } else if(aberta[6] == true && aberta[5] == true && aberta[4] == false && aberta[7] == false && aberta[1] == true){
+            informacoes[6].style.display = 'none'
+            tamanhoCaixaInformacoes.style.height = '450px'
+    
+            aberta[6] = false
+
+        } else if(aberta[6] == false && aberta[5] == false && aberta[4] == true && aberta[7] == false && aberta[1] == true){
+            informacoes[6].style.display = 'block'
+            tamanhoCaixaInformacoes.style.height = '550px'
+    
+            aberta[6] = true
+
+        } else if(aberta[6] == true && aberta[5] == false && aberta[4] == true && aberta[7] == false && aberta[1] == true){
+            informacoes[6].style.display = 'none'
+            tamanhoCaixaInformacoes.style.height = '450px'
+    
+            aberta[6] = false
+
+        } else if(aberta[6] == false && aberta[5] == false && aberta[4] == false && aberta[7] == true && aberta[1] == true){
+            informacoes[6].style.display = 'block'
+            tamanhoCaixaInformacoes.style.height = '550px'
+    
+            aberta[6] = true
+
+        } else if(aberta[6] == true && aberta[5] == false && aberta[4] == false && aberta[7] == true && aberta[1] == true){
+            informacoes[6].style.display = 'none'
+            tamanhoCaixaInformacoes.style.height = '450px'
+    
+            aberta[6] = false
+
+        } else if(aberta[6] == false && aberta[5] == true && aberta[4] == true && aberta[7] == false && aberta[1] == true){
+            informacoes[6].style.display = 'block'
+            tamanhoCaixaInformacoes.style.height = '620px'
+    
+            aberta[6] = true
+
+        } else if(aberta[6] == true && aberta[5] == true && aberta[4] == true && aberta[7] == false && aberta[1] == true){
+            informacoes[6].style.display = 'none'
+            tamanhoCaixaInformacoes.style.height = '520px'
+    
+            aberta[6] = false
+
+        } else if(aberta[6] == false && aberta[5] == false && aberta[4] == true && aberta[7] == true && aberta[1] == true){
+            informacoes[6].style.display = 'block'
+            tamanhoCaixaInformacoes.style.height = '650px'
+    
+            aberta[6] = true
+
+        } else if(aberta[6] == true && aberta[5] == false && aberta[4] == true && aberta[7] == true && aberta[1] == true){
+            informacoes[6].style.display = 'none'
+            tamanhoCaixaInformacoes.style.height = '550px'
+    
+            aberta[6] = false
+
+        } else if(aberta[6] == false && aberta[5] == true && aberta[4] == false && aberta[7] == true && aberta[1] == true){
+            informacoes[6].style.display = 'block'
+            tamanhoCaixaInformacoes.style.height = '640px'
+    
+            aberta[6] = true
+        
+        } else if(aberta[6] == true && aberta[5] == true && aberta[4] == false && aberta[7] == true && aberta[1] == true){
+            informacoes[6].style.display = 'none'
+            tamanhoCaixaInformacoes.style.height = '550px'
+    
+            aberta[6] = false
+
+        } else if(aberta[6] == false && aberta[5] == true && aberta[4] == true && aberta[7] == true && aberta[1] == true){
+            informacoes[6].style.display = 'block'
+            tamanhoCaixaInformacoes.style.height = '750px'
+            document.getElementById('info').style.height = '1100px'
+    
+            aberta[6] = true
+
+        } else if(aberta[6] == true && aberta[5] == true && aberta[4] == true && aberta[7] == true && aberta[1] == true){
+            informacoes[6].style.display = 'none'
+            tamanhoCaixaInformacoes.style.height = '650px'
+            document.getElementById('info').style.height = '1000px'
+    
+            aberta[6] = false
+        }
+
+        //Direita - 3
+        //=======================================
+
+        if(aberta[6] == false && aberta[5] == false && aberta[4] == false && aberta[7] == false && aberta[2] == true){
+            informacoes[6].style.display = 'block'
+            tamanhoCaixaInformacoes.style.height = '450px'
+    
+            aberta[6] = true
+
+        } else if(aberta[6] == true && aberta[5] == false && aberta[4] == false && aberta[7] == false && aberta[2] == true) {
+            informacoes[6].style.display = 'none'
+            tamanhoCaixaInformacoes.style.height = '450px'
+    
+            aberta[6] = false
+
+        } else if(aberta[6] == false && aberta[5] == true && aberta[4] == false && aberta[7] == false && aberta[2] == true){
+            informacoes[6].style.display = 'block'
+            tamanhoCaixaInformacoes.style.height = '540px'
+    
+            aberta[6] = true
+
+        } else if(aberta[6] == true && aberta[5] == true && aberta[4] == false && aberta[7] == false && aberta[2] == true){
+            informacoes[6].style.display = 'none'
+            tamanhoCaixaInformacoes.style.height = '450px'
+    
+            aberta[6] = false
+
+        } else if(aberta[6] == false && aberta[5] == false && aberta[4] == true && aberta[7] == false && aberta[2] == true){
+            informacoes[6].style.display = 'block'
+            tamanhoCaixaInformacoes.style.height = '550px'
+    
+            aberta[6] = true
+
+        } else if(aberta[6] == true && aberta[5] == false && aberta[4] == true && aberta[7] == false && aberta[2] == true){
+            informacoes[6].style.display = 'none'
+            tamanhoCaixaInformacoes.style.height = '450px'
+    
+            aberta[6] = false
+
+        } else if(aberta[6] == false && aberta[5] == false && aberta[4] == false && aberta[7] == true && aberta[2] == true){
+            informacoes[6].style.display = 'block'
+            tamanhoCaixaInformacoes.style.height = '550px'
+    
+            aberta[6] = true
+
+        } else if(aberta[6] == true && aberta[5] == false && aberta[4] == false && aberta[7] == true && aberta[2] == true){
+            informacoes[6].style.display = 'none'
+            tamanhoCaixaInformacoes.style.height = '450px'
+    
+            aberta[6] = false
+
+        } else if(aberta[6] == false && aberta[5] == true && aberta[4] == true && aberta[7] == false && aberta[2] == true){
+            informacoes[6].style.display = 'block'
+            tamanhoCaixaInformacoes.style.height = '620px'
+    
+            aberta[6] = true
+
+        } else if(aberta[6] == true && aberta[5] == true && aberta[4] == true && aberta[7] == false && aberta[2] == true){
+            informacoes[6].style.display = 'none'
+            tamanhoCaixaInformacoes.style.height = '520px'
+    
+            aberta[6] = false
+
+        } else if(aberta[6] == false && aberta[5] == false && aberta[4] == true && aberta[7] == true && aberta[2] == true){
+            informacoes[6].style.display = 'block'
+            tamanhoCaixaInformacoes.style.height = '650px'
+    
+            aberta[6] = true
+
+        } else if(aberta[6] == true && aberta[5] == false && aberta[4] == true && aberta[7] == true && aberta[2] == true){
+            informacoes[6].style.display = 'none'
+            tamanhoCaixaInformacoes.style.height = '550px'
+    
+            aberta[6] = false
+
+        } else if(aberta[6] == false && aberta[5] == true && aberta[4] == false && aberta[7] == true && aberta[2] == true){
+            informacoes[6].style.display = 'block'
+            tamanhoCaixaInformacoes.style.height = '640px'
+    
+            aberta[6] = true
+        
+        } else if(aberta[6] == true && aberta[5] == true && aberta[4] == false && aberta[7] == true && aberta[2] == true){
+            informacoes[6].style.display = 'none'
+            tamanhoCaixaInformacoes.style.height = '550px'
+    
+            aberta[6] = false
+
+        } else if(aberta[6] == false && aberta[5] == true && aberta[4] == true && aberta[7] == true && aberta[2] == true){
+            informacoes[6].style.display = 'block'
+            tamanhoCaixaInformacoes.style.height = '750px'
+            document.getElementById('info').style.height = '1100px'
+    
+            aberta[6] = true
+
+        } else if(aberta[6] == true && aberta[5] == true && aberta[4] == true && aberta[7] == true && aberta[2] == true){
+            informacoes[6].style.display = 'none'
+            tamanhoCaixaInformacoes.style.height = '650px'
+            document.getElementById('info').style.height = '1000px'
+    
+            aberta[6] = false
+        }
+
+        //Direita - 4
+        //=======================================
+
+        if(aberta[6] == false && aberta[5] == false && aberta[4] == false && aberta[7] == false && aberta[3] == true){
+            informacoes[6].style.display = 'block'
+            tamanhoCaixaInformacoes.style.height = '450px'
+    
+            aberta[6] = true
+
+        } else if(aberta[6] == true && aberta[5] == false && aberta[4] == false && aberta[7] == false && aberta[3] == true) {
+            informacoes[6].style.display = 'none'
+            tamanhoCaixaInformacoes.style.height = '450px'
+    
+            aberta[6] = false
+
+        } else if(aberta[6] == false && aberta[5] == true && aberta[4] == false && aberta[7] == false && aberta[3] == true){
+            informacoes[6].style.display = 'block'
+            tamanhoCaixaInformacoes.style.height = '540px'
+    
+            aberta[6] = true
+
+        } else if(aberta[6] == true && aberta[5] == true && aberta[4] == false && aberta[7] == false && aberta[3] == true){
+            informacoes[6].style.display = 'none'
+            tamanhoCaixaInformacoes.style.height = '450px'
+    
+            aberta[6] = false
+
+        } else if(aberta[6] == false && aberta[5] == false && aberta[4] == true && aberta[7] == false && aberta[3] == true){
+            informacoes[6].style.display = 'block'
+            tamanhoCaixaInformacoes.style.height = '550px'
+    
+            aberta[6] = true
+
+        } else if(aberta[6] == true && aberta[5] == false && aberta[4] == true && aberta[7] == false && aberta[3] == true){
+            informacoes[6].style.display = 'none'
+            tamanhoCaixaInformacoes.style.height = '450px'
+    
+            aberta[6] = false
+
+        } else if(aberta[6] == false && aberta[5] == false && aberta[4] == false && aberta[7] == true && aberta[3] == true){
+            informacoes[6].style.display = 'block'
+            tamanhoCaixaInformacoes.style.height = '550px'
+    
+            aberta[6] = true
+
+        } else if(aberta[6] == true && aberta[5] == false && aberta[4] == false && aberta[7] == true && aberta[3] == true){
+            informacoes[6].style.display = 'none'
+            tamanhoCaixaInformacoes.style.height = '450px'
+    
+            aberta[6] = false
+
+        } else if(aberta[6] == false && aberta[5] == true && aberta[4] == true && aberta[7] == false && aberta[3] == true){
+            informacoes[6].style.display = 'block'
+            tamanhoCaixaInformacoes.style.height = '620px'
+    
+            aberta[6] = true
+
+        } else if(aberta[6] == true && aberta[5] == true && aberta[4] == true && aberta[7] == false && aberta[3] == true){
+            informacoes[6].style.display = 'none'
+            tamanhoCaixaInformacoes.style.height = '520px'
+    
+            aberta[6] = false
+
+        } else if(aberta[6] == false && aberta[5] == false && aberta[4] == true && aberta[7] == true && aberta[3] == true){
+            informacoes[6].style.display = 'block'
+            tamanhoCaixaInformacoes.style.height = '650px'
+    
+            aberta[6] = true
+
+        } else if(aberta[6] == true && aberta[5] == false && aberta[4] == true && aberta[7] == true && aberta[3] == true){
+            informacoes[6].style.display = 'none'
+            tamanhoCaixaInformacoes.style.height = '550px'
+    
+            aberta[6] = false
+
+        } else if(aberta[6] == false && aberta[5] == true && aberta[4] == false && aberta[7] == true && aberta[3] == true){
+            informacoes[6].style.display = 'block'
+            tamanhoCaixaInformacoes.style.height = '640px'
+    
+            aberta[6] = true
+        
+        } else if(aberta[6] == true && aberta[5] == true && aberta[4] == false && aberta[7] == true && aberta[3] == true){
+            informacoes[6].style.display = 'none'
+            tamanhoCaixaInformacoes.style.height = '550px'
+    
+            aberta[6] = false
+
+        } else if(aberta[6] == false && aberta[5] == true && aberta[4] == true && aberta[7] == true && aberta[3] == true){
+            informacoes[6].style.display = 'block'
+            tamanhoCaixaInformacoes.style.height = '750px'
+            document.getElementById('info').style.height = '1100px'
+    
+            aberta[6] = true
+
+        } else if(aberta[6] == true && aberta[5] == true && aberta[4] == true && aberta[7] == true && aberta[3] == true){
             informacoes[6].style.display = 'none'
             tamanhoCaixaInformacoes.style.height = '650px'
             document.getElementById('info').style.height = '1000px'
@@ -2394,98 +3621,506 @@ function caixaInforma7(){
 
 function caixaInforma8(){
     if(largura2 >= 1200){
-        if(aberta[7] == false && aberta[5] == false && aberta[6] == false && aberta[4] == false){
+        if(aberta[7] == false && aberta[5] == false && aberta[6] == false && aberta[4] == false && aberta[0] == false && aberta[1] == false && aberta[2] == false && aberta[3] == false){
             informacoes[7].style.display = 'block'
             tamanhoCaixaInformacoes.style.height = '465px'
     
             aberta[7] = true
 
-        } else if(aberta[7] == true && aberta[5] == false && aberta[6] == false && aberta[4] == false) {
+        } else if(aberta[7] == true && aberta[5] == false && aberta[6] == false && aberta[4] == false && aberta[0] == false && aberta[1] == false && aberta[2] == false && aberta[3] == false) {
             informacoes[7].style.display = 'none'
             tamanhoCaixaInformacoes.style.height = '360px'
     
             aberta[7] = false
 
-        } else if(aberta[7] == false && aberta[5] == true && aberta[6] == false && aberta[4] == false){
+        } else if(aberta[7] == false && aberta[5] == true && aberta[6] == false && aberta[4] == false && aberta[0] == false && aberta[1] == false && aberta[2] == false && aberta[3] == false){
             informacoes[7].style.display = 'block'
             tamanhoCaixaInformacoes.style.height = '540px'
     
             aberta[7] = true
 
-        } else if(aberta[7] == true && aberta[5] == true && aberta[6] == false && aberta[4] == false){
+        } else if(aberta[7] == true && aberta[5] == true && aberta[6] == false && aberta[4] == false && aberta[0] == false && aberta[1] == false && aberta[2] == false && aberta[3] == false){
             informacoes[7].style.display = 'none'
             tamanhoCaixaInformacoes.style.height = '465px'
     
             aberta[7] = false
 
-        } else if(aberta[7] == false && aberta[5] == false && aberta[6] == true && aberta[4] == false){
+        } else if(aberta[7] == false && aberta[5] == false && aberta[6] == true && aberta[4] == false && aberta[0] == false && aberta[1] == false && aberta[2] == false && aberta[3] == false){
             informacoes[7].style.display = 'block'
             tamanhoCaixaInformacoes.style.height = '550px'
     
             aberta[7] = true
 
-        } else if(aberta[7] == true && aberta[5] == false && aberta[6] == true && aberta[4] == false){
+        } else if(aberta[7] == true && aberta[5] == false && aberta[6] == true && aberta[4] == false && aberta[0] == false && aberta[1] == false && aberta[2] == false && aberta[3] == false){
             informacoes[7].style.display = 'none'
             tamanhoCaixaInformacoes.style.height = '465px'
     
             aberta[7] = false
 
-        } else if(aberta[7] == false && aberta[5] == false && aberta[6] == false && aberta[4] == true){
+        } else if(aberta[7] == false && aberta[5] == false && aberta[6] == false && aberta[4] == true && aberta[0] == false && aberta[1] == false && aberta[2] == false && aberta[3] == false){
             informacoes[7].style.display = 'block'
             tamanhoCaixaInformacoes.style.height = '550px'
     
             aberta[7] = true
 
-        } else if(aberta[7] == true && aberta[5] == false && aberta[6] == false && aberta[4] == true){
+        } else if(aberta[7] == true && aberta[5] == false && aberta[6] == false && aberta[4] == true && aberta[0] == false && aberta[1] == false && aberta[2] == false && aberta[3] == false){
             informacoes[7].style.display = 'none'
             tamanhoCaixaInformacoes.style.height = '465px'
     
             aberta[7] = false
 
-        } else if(aberta[7] == false && aberta[5] == true && aberta[6] == true && aberta[4] == false){
+        } else if(aberta[7] == false && aberta[5] == true && aberta[6] == true && aberta[4] == false && aberta[0] == false && aberta[1] == false && aberta[2] == false && aberta[3] == false){
             informacoes[7].style.display = 'block'
             tamanhoCaixaInformacoes.style.height = '650px'
     
             aberta[7] = true
 
-        } else if(aberta[7] == true && aberta[5] == true && aberta[6] == true && aberta[4] == false){
+        } else if(aberta[7] == true && aberta[5] == true && aberta[6] == true && aberta[4] == false && aberta[0] == false && aberta[1] == false && aberta[2] == false && aberta[3] == false){
             informacoes[7].style.display = 'none'
             tamanhoCaixaInformacoes.style.height = '540px'
     
             aberta[7] = false
 
-        } else if(aberta[7] == false && aberta[5] == false && aberta[6] == true && aberta[4] == true){
+        } else if(aberta[7] == false && aberta[5] == false && aberta[6] == true && aberta[4] == true && aberta[0] == false && aberta[1] == false && aberta[2] == false && aberta[3] == false){
             informacoes[7].style.display = 'block'
             tamanhoCaixaInformacoes.style.height = '650px'
     
             aberta[7] = true
 
-        } else if(aberta[7] == true && aberta[5] == false && aberta[6] == true && aberta[4] == true){
+        } else if(aberta[7] == true && aberta[5] == false && aberta[6] == true && aberta[4] == true && aberta[0] == false && aberta[1] == false && aberta[2] == false && aberta[3] == false){
             informacoes[7].style.display = 'none'
             tamanhoCaixaInformacoes.style.height = '550px'
     
             aberta[7] = false
 
-        } else if(aberta[7] == false && aberta[5] == true && aberta[6] == false && aberta[4] == true){
+        } else if(aberta[7] == false && aberta[5] == true && aberta[6] == false && aberta[4] == true && aberta[0] == false && aberta[1] == false && aberta[2] == false && aberta[3] == false){
             informacoes[7].style.display = 'block'
             tamanhoCaixaInformacoes.style.height = '640px'
     
             aberta[7] = true
         
-        } else if(aberta[7] == true && aberta[5] == true && aberta[6] == false && aberta[4] == true){
+        } else if(aberta[7] == true && aberta[5] == true && aberta[6] == false && aberta[4] == true && aberta[0] == false && aberta[1] == false && aberta[2] == false && aberta[3] == false){
             informacoes[7].style.display = 'none'
             tamanhoCaixaInformacoes.style.height = '550px'
     
             aberta[7] = false
 
-        } else if(aberta[7] == false && aberta[5] == true && aberta[6] == true && aberta[4] == true){
+        } else if(aberta[7] == false && aberta[5] == true && aberta[6] == true && aberta[4] == true && aberta[0] == false && aberta[1] == false && aberta[2] == false && aberta[3] == false){
             informacoes[7].style.display = 'block'
             tamanhoCaixaInformacoes.style.height = '750px'
             document.getElementById('info').style.height = '1100px'
     
             aberta[7] = true
 
-        } else if(aberta[7] == true && aberta[5] == true && aberta[6] == true && aberta[4] == true){
+        } else if(aberta[7] == true && aberta[5] == true && aberta[6] == true && aberta[4] == true && aberta[0] == false && aberta[1] == false && aberta[2] == false && aberta[3] == false){
+            informacoes[7].style.display = 'none'
+            tamanhoCaixaInformacoes.style.height = '650px'
+            document.getElementById('info').style.height = '1000px'
+    
+            aberta[7] = false
+        }
+
+        //Direita - 1
+        //=======================================
+
+        if(aberta[7] == false && aberta[5] == false && aberta[6] == false && aberta[4] == false && aberta[0] == true){
+            informacoes[7].style.display = 'block'
+            tamanhoCaixaInformacoes.style.height = '450px'
+    
+            aberta[7] = true
+
+        } else if(aberta[7] == true && aberta[5] == false && aberta[6] == false && aberta[4] == false && aberta[0] == true) {
+            informacoes[7].style.display = 'none'
+            tamanhoCaixaInformacoes.style.height = '450px'
+    
+            aberta[7] = false
+
+        } else if(aberta[7] == false && aberta[5] == true && aberta[6] == false && aberta[4] == false && aberta[0] == true){
+            informacoes[7].style.display = 'block'
+            tamanhoCaixaInformacoes.style.height = '540px'
+    
+            aberta[7] = true
+
+        } else if(aberta[7] == true && aberta[5] == true && aberta[6] == false && aberta[4] == false && aberta[0] == true){
+            informacoes[7].style.display = 'none'
+            tamanhoCaixaInformacoes.style.height = '450px'
+    
+            aberta[7] = false
+
+        } else if(aberta[7] == false && aberta[5] == false && aberta[6] == true && aberta[4] == false && aberta[0] == true){
+            informacoes[7].style.display = 'block'
+            tamanhoCaixaInformacoes.style.height = '550px'
+    
+            aberta[7] = true
+
+        } else if(aberta[7] == true && aberta[5] == false && aberta[6] == true && aberta[4] == false && aberta[0] == true){
+            informacoes[7].style.display = 'none'
+            tamanhoCaixaInformacoes.style.height = '450px'
+    
+            aberta[7] = false
+
+        } else if(aberta[7] == false && aberta[5] == false && aberta[6] == false && aberta[4] == true && aberta[0] == true){
+            informacoes[7].style.display = 'block'
+            tamanhoCaixaInformacoes.style.height = '550px'
+    
+            aberta[7] = true
+
+        } else if(aberta[7] == true && aberta[5] == false && aberta[6] == false && aberta[4] == true && aberta[0] == true){
+            informacoes[7].style.display = 'none'
+            tamanhoCaixaInformacoes.style.height = '450px'
+    
+            aberta[7] = false
+
+        } else if(aberta[7] == false && aberta[5] == true && aberta[6] == true && aberta[4] == false && aberta[0] == true){
+            informacoes[7].style.display = 'block'
+            tamanhoCaixaInformacoes.style.height = '620px'
+    
+            aberta[7] = true
+
+        } else if(aberta[7] == true && aberta[5] == true && aberta[6] == true && aberta[4] == false && aberta[0] == true){
+            informacoes[7].style.display = 'none'
+            tamanhoCaixaInformacoes.style.height = '520px'
+    
+            aberta[7] = false
+
+        } else if(aberta[7] == false && aberta[5] == false && aberta[6] == true && aberta[4] == true && aberta[0] == true){
+            informacoes[7].style.display = 'block'
+            tamanhoCaixaInformacoes.style.height = '650px'
+    
+            aberta[7] = true
+
+        } else if(aberta[7] == true && aberta[5] == false && aberta[6] == true && aberta[4] == true && aberta[0] == true){
+            informacoes[7].style.display = 'none'
+            tamanhoCaixaInformacoes.style.height = '550px'
+    
+            aberta[7] = false
+
+        } else if(aberta[7] == false && aberta[5] == true && aberta[6] == false && aberta[4] == true && aberta[0] == true){
+            informacoes[7].style.display = 'block'
+            tamanhoCaixaInformacoes.style.height = '640px'
+    
+            aberta[7] = true
+        
+        } else if(aberta[7] == true && aberta[5] == true && aberta[6] == false && aberta[4] == true && aberta[0] == true){
+            informacoes[7].style.display = 'none'
+            tamanhoCaixaInformacoes.style.height = '550px'
+    
+            aberta[7] = false
+
+        } else if(aberta[7] == false && aberta[5] == true && aberta[6] == true && aberta[4] == true && aberta[0] == true){
+            informacoes[7].style.display = 'block'
+            tamanhoCaixaInformacoes.style.height = '750px'
+            document.getElementById('info').style.height = '1100px'
+    
+            aberta[7] = true
+
+        } else if(aberta[7] == true && aberta[5] == true && aberta[6] == true && aberta[4] == true && aberta[0] == true){
+            informacoes[7].style.display = 'none'
+            tamanhoCaixaInformacoes.style.height = '650px'
+            document.getElementById('info').style.height = '1000px'
+    
+            aberta[7] = false
+        }
+
+        //Direita - 2
+        //=======================================
+
+        if(aberta[7] == false && aberta[5] == false && aberta[6] == false && aberta[4] == false && aberta[1] == true){
+            informacoes[7].style.display = 'block'
+            tamanhoCaixaInformacoes.style.height = '450px'
+    
+            aberta[7] = true
+
+        } else if(aberta[7] == true && aberta[5] == false && aberta[6] == false && aberta[4] == false && aberta[1] == true) {
+            informacoes[7].style.display = 'none'
+            tamanhoCaixaInformacoes.style.height = '450px'
+    
+            aberta[7] = false
+
+        } else if(aberta[7] == false && aberta[5] == true && aberta[6] == false && aberta[4] == false && aberta[1] == true){
+            informacoes[7].style.display = 'block'
+            tamanhoCaixaInformacoes.style.height = '540px'
+    
+            aberta[7] = true
+
+        } else if(aberta[7] == true && aberta[5] == true && aberta[6] == false && aberta[4] == false && aberta[1] == true){
+            informacoes[7].style.display = 'none'
+            tamanhoCaixaInformacoes.style.height = '450px'
+    
+            aberta[7] = false
+
+        } else if(aberta[7] == false && aberta[5] == false && aberta[6] == true && aberta[4] == false && aberta[1] == true){
+            informacoes[7].style.display = 'block'
+            tamanhoCaixaInformacoes.style.height = '550px'
+    
+            aberta[7] = true
+
+        } else if(aberta[7] == true && aberta[5] == false && aberta[6] == true && aberta[4] == false && aberta[1] == true){
+            informacoes[7].style.display = 'none'
+            tamanhoCaixaInformacoes.style.height = '450px'
+    
+            aberta[7] = false
+
+        } else if(aberta[7] == false && aberta[5] == false && aberta[6] == false && aberta[4] == true && aberta[1] == true){
+            informacoes[7].style.display = 'block'
+            tamanhoCaixaInformacoes.style.height = '550px'
+    
+            aberta[7] = true
+
+        } else if(aberta[7] == true && aberta[5] == false && aberta[6] == false && aberta[4] == true && aberta[1] == true){
+            informacoes[7].style.display = 'none'
+            tamanhoCaixaInformacoes.style.height = '450px'
+    
+            aberta[7] = false
+
+        } else if(aberta[7] == false && aberta[5] == true && aberta[6] == true && aberta[4] == false && aberta[1] == true){
+            informacoes[7].style.display = 'block'
+            tamanhoCaixaInformacoes.style.height = '620px'
+    
+            aberta[7] = true
+
+        } else if(aberta[7] == true && aberta[5] == true && aberta[6] == true && aberta[4] == false && aberta[1] == true){
+            informacoes[7].style.display = 'none'
+            tamanhoCaixaInformacoes.style.height = '520px'
+    
+            aberta[7] = false
+
+        } else if(aberta[7] == false && aberta[5] == false && aberta[6] == true && aberta[4] == true && aberta[1] == true){
+            informacoes[7].style.display = 'block'
+            tamanhoCaixaInformacoes.style.height = '650px'
+    
+            aberta[7] = true
+
+        } else if(aberta[7] == true && aberta[5] == false && aberta[6] == true && aberta[4] == true && aberta[1] == true){
+            informacoes[7].style.display = 'none'
+            tamanhoCaixaInformacoes.style.height = '550px'
+    
+            aberta[7] = false
+
+        } else if(aberta[7] == false && aberta[5] == true && aberta[6] == false && aberta[4] == true && aberta[1] == true){
+            informacoes[7].style.display = 'block'
+            tamanhoCaixaInformacoes.style.height = '640px'
+    
+            aberta[7] = true
+        
+        } else if(aberta[7] == true && aberta[5] == true && aberta[6] == false && aberta[4] == true && aberta[1] == true){
+            informacoes[7].style.display = 'none'
+            tamanhoCaixaInformacoes.style.height = '550px'
+    
+            aberta[7] = false
+
+        } else if(aberta[7] == false && aberta[5] == true && aberta[6] == true && aberta[4] == true && aberta[1] == true){
+            informacoes[7].style.display = 'block'
+            tamanhoCaixaInformacoes.style.height = '750px'
+            document.getElementById('info').style.height = '1100px'
+    
+            aberta[7] = true
+
+        } else if(aberta[7] == true && aberta[5] == true && aberta[6] == true && aberta[4] == true && aberta[1] == true){
+            informacoes[7].style.display = 'none'
+            tamanhoCaixaInformacoes.style.height = '650px'
+            document.getElementById('info').style.height = '1000px'
+    
+            aberta[7] = false
+        }
+
+        //Direita - 3
+        //=======================================
+
+        if(aberta[7] == false && aberta[5] == false && aberta[6] == false && aberta[4] == false && aberta[2] == true){
+            informacoes[7].style.display = 'block'
+            tamanhoCaixaInformacoes.style.height = '450px'
+    
+            aberta[7] = true
+
+        } else if(aberta[7] == true && aberta[5] == false && aberta[6] == false && aberta[4] == false && aberta[2] == true) {
+            informacoes[7].style.display = 'none'
+            tamanhoCaixaInformacoes.style.height = '450px'
+    
+            aberta[7] = false
+
+        } else if(aberta[7] == false && aberta[5] == true && aberta[6] == false && aberta[4] == false && aberta[2] == true){
+            informacoes[7].style.display = 'block'
+            tamanhoCaixaInformacoes.style.height = '540px'
+    
+            aberta[7] = true
+
+        } else if(aberta[7] == true && aberta[5] == true && aberta[6] == false && aberta[4] == false && aberta[2] == true){
+            informacoes[7].style.display = 'none'
+            tamanhoCaixaInformacoes.style.height = '450px'
+    
+            aberta[7] = false
+
+        } else if(aberta[7] == false && aberta[5] == false && aberta[6] == true && aberta[4] == false && aberta[2] == true){
+            informacoes[7].style.display = 'block'
+            tamanhoCaixaInformacoes.style.height = '550px'
+    
+            aberta[7] = true
+
+        } else if(aberta[7] == true && aberta[5] == false && aberta[6] == true && aberta[4] == false && aberta[2] == true){
+            informacoes[7].style.display = 'none'
+            tamanhoCaixaInformacoes.style.height = '450px'
+    
+            aberta[7] = false
+
+        } else if(aberta[7] == false && aberta[5] == false && aberta[6] == false && aberta[4] == true && aberta[2] == true){
+            informacoes[7].style.display = 'block'
+            tamanhoCaixaInformacoes.style.height = '550px'
+    
+            aberta[7] = true
+
+        } else if(aberta[7] == true && aberta[5] == false && aberta[6] == false && aberta[4] == true && aberta[2] == true){
+            informacoes[7].style.display = 'none'
+            tamanhoCaixaInformacoes.style.height = '450px'
+    
+            aberta[7] = false
+
+        } else if(aberta[7] == false && aberta[5] == true && aberta[6] == true && aberta[4] == false && aberta[2] == true){
+            informacoes[7].style.display = 'block'
+            tamanhoCaixaInformacoes.style.height = '620px'
+    
+            aberta[7] = true
+
+        } else if(aberta[7] == true && aberta[5] == true && aberta[6] == true && aberta[4] == false && aberta[2] == true){
+            informacoes[7].style.display = 'none'
+            tamanhoCaixaInformacoes.style.height = '520px'
+    
+            aberta[7] = false
+
+        } else if(aberta[7] == false && aberta[5] == false && aberta[6] == true && aberta[4] == true && aberta[2] == true){
+            informacoes[7].style.display = 'block'
+            tamanhoCaixaInformacoes.style.height = '650px'
+    
+            aberta[7] = true
+
+        } else if(aberta[7] == true && aberta[5] == false && aberta[6] == true && aberta[4] == true && aberta[2] == true){
+            informacoes[7].style.display = 'none'
+            tamanhoCaixaInformacoes.style.height = '550px'
+    
+            aberta[7] = false
+
+        } else if(aberta[7] == false && aberta[5] == true && aberta[6] == false && aberta[4] == true && aberta[2] == true){
+            informacoes[7].style.display = 'block'
+            tamanhoCaixaInformacoes.style.height = '640px'
+    
+            aberta[7] = true
+        
+        } else if(aberta[7] == true && aberta[5] == true && aberta[6] == false && aberta[4] == true && aberta[2] == true){
+            informacoes[7].style.display = 'none'
+            tamanhoCaixaInformacoes.style.height = '550px'
+    
+            aberta[7] = false
+
+        } else if(aberta[7] == false && aberta[5] == true && aberta[6] == true && aberta[4] == true && aberta[2] == true){
+            informacoes[7].style.display = 'block'
+            tamanhoCaixaInformacoes.style.height = '750px'
+            document.getElementById('info').style.height = '1100px'
+    
+            aberta[7] = true
+
+        } else if(aberta[7] == true && aberta[5] == true && aberta[6] == true && aberta[4] == true && aberta[2] == true){
+            informacoes[7].style.display = 'none'
+            tamanhoCaixaInformacoes.style.height = '650px'
+            document.getElementById('info').style.height = '1000px'
+    
+            aberta[7] = false
+        }
+
+        //Direita - 4
+        //=======================================
+
+        if(aberta[7] == false && aberta[5] == false && aberta[6] == false && aberta[4] == false && aberta[3] == true){
+            informacoes[7].style.display = 'block'
+            tamanhoCaixaInformacoes.style.height = '450px'
+    
+            aberta[7] = true
+
+        } else if(aberta[7] == true && aberta[5] == false && aberta[6] == false && aberta[4] == false && aberta[3] == true) {
+            informacoes[7].style.display = 'none'
+            tamanhoCaixaInformacoes.style.height = '450px'
+    
+            aberta[7] = false
+
+        } else if(aberta[7] == false && aberta[5] == true && aberta[6] == false && aberta[4] == false && aberta[3] == true){
+            informacoes[7].style.display = 'block'
+            tamanhoCaixaInformacoes.style.height = '540px'
+    
+            aberta[7] = true
+
+        } else if(aberta[7] == true && aberta[5] == true && aberta[6] == false && aberta[4] == false && aberta[3] == true){
+            informacoes[7].style.display = 'none'
+            tamanhoCaixaInformacoes.style.height = '450px'
+    
+            aberta[7] = false
+
+        } else if(aberta[7] == false && aberta[5] == false && aberta[6] == true && aberta[4] == false && aberta[3] == true){
+            informacoes[7].style.display = 'block'
+            tamanhoCaixaInformacoes.style.height = '550px'
+    
+            aberta[7] = true
+
+        } else if(aberta[7] == true && aberta[5] == false && aberta[6] == true && aberta[4] == false && aberta[3] == true){
+            informacoes[7].style.display = 'none'
+            tamanhoCaixaInformacoes.style.height = '450px'
+    
+            aberta[7] = false
+
+        } else if(aberta[7] == false && aberta[5] == false && aberta[6] == false && aberta[4] == true && aberta[3] == true){
+            informacoes[7].style.display = 'block'
+            tamanhoCaixaInformacoes.style.height = '550px'
+    
+            aberta[7] = true
+
+        } else if(aberta[7] == true && aberta[5] == false && aberta[6] == false && aberta[4] == true && aberta[3] == true){
+            informacoes[7].style.display = 'none'
+            tamanhoCaixaInformacoes.style.height = '450px'
+    
+            aberta[7] = false
+
+        } else if(aberta[7] == false && aberta[5] == true && aberta[6] == true && aberta[4] == false && aberta[3] == true){
+            informacoes[7].style.display = 'block'
+            tamanhoCaixaInformacoes.style.height = '620px'
+    
+            aberta[7] = true
+
+        } else if(aberta[7] == true && aberta[5] == true && aberta[6] == true && aberta[4] == false && aberta[3] == true){
+            informacoes[7].style.display = 'none'
+            tamanhoCaixaInformacoes.style.height = '520px'
+    
+            aberta[7] = false
+
+        } else if(aberta[7] == false && aberta[5] == false && aberta[6] == true && aberta[4] == true && aberta[3] == true){
+            informacoes[7].style.display = 'block'
+            tamanhoCaixaInformacoes.style.height = '650px'
+    
+            aberta[7] = true
+
+        } else if(aberta[7] == true && aberta[5] == false && aberta[6] == true && aberta[4] == true && aberta[3] == true){
+            informacoes[7].style.display = 'none'
+            tamanhoCaixaInformacoes.style.height = '550px'
+    
+            aberta[7] = false
+
+        } else if(aberta[7] == false && aberta[5] == true && aberta[6] == false && aberta[4] == true && aberta[3] == true){
+            informacoes[7].style.display = 'block'
+            tamanhoCaixaInformacoes.style.height = '640px'
+    
+            aberta[7] = true
+        
+        } else if(aberta[7] == true && aberta[5] == true && aberta[6] == false && aberta[4] == true && aberta[3] == true){
+            informacoes[7].style.display = 'none'
+            tamanhoCaixaInformacoes.style.height = '550px'
+    
+            aberta[7] = false
+
+        } else if(aberta[7] == false && aberta[5] == true && aberta[6] == true && aberta[4] == true && aberta[3] == true){
+            informacoes[7].style.display = 'block'
+            tamanhoCaixaInformacoes.style.height = '750px'
+            document.getElementById('info').style.height = '1100px'
+    
+            aberta[7] = true
+
+        } else if(aberta[7] == true && aberta[5] == true && aberta[6] == true && aberta[4] == true && aberta[3] == true){
             informacoes[7].style.display = 'none'
             tamanhoCaixaInformacoes.style.height = '650px'
             document.getElementById('info').style.height = '1000px'
