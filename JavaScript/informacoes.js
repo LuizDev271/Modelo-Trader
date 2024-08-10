@@ -2141,7 +2141,7 @@ function caixaInforma5(){
 
         } else if(aberta[4] == true && aberta[5] == true && aberta[6] == true && aberta[7] == false){
             informacoes[4].style.display = 'none'
-            tamanhoCaixaInformacoes.style.height = '520px'
+            tamanhoCaixaInformacoes.style.height = '540px'
     
             aberta[4] = false
 
@@ -2244,7 +2244,7 @@ function caixaInforma6(){
 
         } else if(aberta[5] == true && aberta[4] == true && aberta[6] == true && aberta[7] == false){
             informacoes[5].style.display = 'none'
-            tamanhoCaixaInformacoes.style.height = '520px'
+            tamanhoCaixaInformacoes.style.height = '540px'
     
             aberta[5] = false
 
@@ -2347,7 +2347,7 @@ function caixaInforma7(){
 
         } else if(aberta[6] == true && aberta[5] == true && aberta[4] == true && aberta[7] == false){
             informacoes[6].style.display = 'none'
-            tamanhoCaixaInformacoes.style.height = '520px'
+            tamanhoCaixaInformacoes.style.height = '540px'
     
             aberta[6] = false
 
@@ -2450,7 +2450,7 @@ function caixaInforma8(){
 
         } else if(aberta[7] == true && aberta[5] == true && aberta[6] == true && aberta[4] == false){
             informacoes[7].style.display = 'none'
-            tamanhoCaixaInformacoes.style.height = '520px'
+            tamanhoCaixaInformacoes.style.height = '540px'
     
             aberta[7] = false
 
