@@ -453,8 +453,9 @@ ul li i{
 /*Perguntas
 -------------*/
 #perguntas{
-    height: 800px;
+    height: 750px;
 }
+
 #perguntas h1{
     text-align: center;
     padding-bottom: 200px;
