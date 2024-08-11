@@ -89,7 +89,7 @@ ul li i{
 .caixa-conteudo{
     background-color: var(--cor3);
     height: 60px;
-    margin: 20px 0;
+    margin: 12px 0;
 }
 
 .caixa-conteudo:hover{
@@ -98,6 +98,12 @@ ul li i{
 
 .informa{
     display: none;
+}
+
+.pergunta-feita{
+    display: none;
+    color: white;
+    padding: 0 20px 15px 20px;
 }
 
 .caixa-valor{
@@ -451,7 +457,7 @@ ul li i{
 }
 #perguntas h1{
     text-align: center;
-    padding-bottom: 150px;
+    padding-bottom: 200px;
 }
 
 #perguntas h5{
