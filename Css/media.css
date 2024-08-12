@@ -27,7 +27,7 @@
     }
 
     .caixa-valor{
-        height: 870px;
+        height: 915px;
     }
 
     .row{
@@ -180,6 +180,10 @@
         width: 320px;
     }
 
+    #inscricao img{
+        width: 320px;
+    }
+
     #paragrafo-zero{
         text-align: center;
     }
@@ -209,7 +213,7 @@
     }
 
     ul li{
-        width: 370px;
+        width: 350px;
     }
 
     ul li p{
