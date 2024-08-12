@@ -45,6 +45,8 @@ function abrirPergunta1(){
                 rodape.style.marginTop = '0px'
             }
         }
+    } else if(largura3 <= 520){
+        console.log('foi 1')
     }
 }
 
@@ -73,6 +75,8 @@ function abrirPergunta2(){
                 rodape.style.marginTop = '0px'
             }
         }
+    } else if(largura3 <= 520){
+        console.log('foi 2')
     }
 }
 
@@ -101,6 +105,8 @@ function abrirPergunta3(){
                 rodape.style.marginTop = '0px'
             }
         }
+    } else if(largura3 <= 520){
+        console.log('foi 3')
     }
 }
 
@@ -129,6 +135,8 @@ function abrirPergunta4(){
                 rodape.style.marginTop = '0px'
             }
         }
+    } else if(largura3 <= 520){
+        console.log('foi 4')
     }
 }
 
@@ -157,6 +165,8 @@ function abrirPergunta5(){
                 rodape.style.marginTop = '0px'
             }
         }
+    } else if(largura3 <= 520){
+        console.log('foi 5')
     }
 }
 
@@ -185,6 +195,8 @@ function abrirPergunta6(){
                 rodape.style.marginTop = '0px'
             }
         }
+    } else if(largura3 <= 520){
+        console.log('foi 6')
     }
 }
 
@@ -213,6 +225,8 @@ function abrirPergunta7(){
                 rodape.style.marginTop = '0px'
             }
         }
+    } else if(largura3 <= 520){
+        console.log('foi 7')
     }
 }
 
@@ -241,5 +255,7 @@ function abrirPergunta8(){
                 rodape.style.marginTop = '0px'
             }
         }
+    } else if(largura3 <= 520){
+        console.log('foi 8')
     }
 }

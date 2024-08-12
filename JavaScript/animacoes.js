@@ -5,7 +5,6 @@ const animacao4 = document.getElementsByClassName('anima-4')
 const animacao5 = document.getElementsByClassName('anima-5')
 const animacao6 = document.getElementsByClassName('anima-6')
 
-let largura = 0
 let rolagem = 0
 
 function animacoes(){
@@ -13,7 +12,7 @@ function animacoes(){
     largura = window.innerWidth
     rolagem = scrollY
 
-    if(rolagem > 400 && largura >= 1200){
+    if(rolagem > 400){
         //Titulos - seções conteudo
         animacao1[0].classList.remove('animacao-1')
         animacao1[0].classList.add('padrao')
@@ -29,7 +28,7 @@ function animacoes(){
         animacao3[0].classList.add('padrao')
     }
 
-    if(rolagem > 1000 && largura >= 1200){
+    if(rolagem > 1000){
         //Titulos - seções conteudo
         animacao1[1].classList.remove('animacao-1')
         animacao1[1].classList.add('padrao')
@@ -45,7 +44,7 @@ function animacoes(){
         animacao3[1].classList.add('padrao')
     }
 
-    if(rolagem > 1900 && largura >= 1200){
+    if(rolagem > 1900){
         //Titulos - seções conteudo
         animacao1[2].classList.remove('animacao-1')
         animacao1[2].classList.add('padrao')
@@ -61,17 +60,17 @@ function animacoes(){
         animacao3[2].classList.add('padrao')
     }
 
-    if(rolagem > 2700 && largura >= 1200){
+    if(rolagem > 2700){
         animacao4[0].classList.remove('animacao-4')
         animacao4[0].classList.add('padrao')
     }
 
-    if(rolagem > 3400 && largura >= 1200){
+    if(rolagem > 3400){
         animacao4[1].classList.remove('animacao-4')
         animacao4[1].classList.add('padrao')
     }
 
-    if(rolagem > 3600 && largura >= 1200){
+    if(rolagem > 3600){
         for(let x = 0; x < animacao5.length; x++){ 
             animacao5[x].classList.remove('animacao-5')
             animacao5[x].classList.add('padrao')
@@ -87,13 +86,13 @@ function animacoes(){
         animacao3[3].classList.add('padrao')
     }
 
-    if(rolagem > 4150 && largura >= 1200){
+    if(rolagem > 4150){
         //Titulos - seções conteudo
         animacao1[3].classList.remove('animacao-3')
         animacao1[3].classList.add('padrao')
     }
 
-    if(rolagem > 5300 && largura >= 1200){
+    if(rolagem > 5300){
         //Titulos - seções conteudo
         animacao1[4].classList.remove('animacao-1')
         animacao1[4].classList.add('padrao')
@@ -107,7 +106,7 @@ function animacoes(){
         animacao3[4].classList.add('padrao')
     }
 
-    if(rolagem > 6450 && largura >= 1200){
+    if(rolagem > 6450){
         //botoes
         animacao3[5].classList.remove('animacao-3')
         animacao3[5].classList.add('padrao')

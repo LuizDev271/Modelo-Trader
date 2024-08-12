@@ -36,7 +36,7 @@ section{
 
 h1{
     color: white;
-    font-size: 34px;
+    font-size: 33px;
     font-weight: 700;
     line-height: 50px;
 }
@@ -141,7 +141,7 @@ ul li i{
 .btn:hover{
     color: var(--cor1);
     background-color: white;
-    transform: scale(1.15);
+    transform: scale(1.10);
     transition: all 0.4s;
 }
 
@@ -409,7 +409,7 @@ ul li i{
 ------------*/
 #inscricao{
     height: 900px;
-    margin-bottom: 550px;
+    margin-bottom: 500px;
     padding-top: 150px;
     background-image: url('../Imagens/Fundos/Fundo-6.jpg');
     background-position: right top;

@@ -49,6 +49,8 @@ function caixaInforma1(){
                 botao.style.opacity = '1'
             }
         }
+    } else if(largura2 <= 520){
+        console.log('foi')
     }
 }
 
@@ -80,6 +82,8 @@ function caixaInforma2(){
                 botao.style.opacity = '1'
             }
         }
+    } else if(largura2 <= 520){
+        console.log('foi 2')
     }
 }
 
@@ -111,6 +115,8 @@ function caixaInforma3(){
                 botao.style.opacity = '1'
             }
         }
+    } else if(largura2 <= 520){
+        console.log('foi 3')
     }
 }
 
@@ -142,6 +148,8 @@ function caixaInforma4(){
                 botao.style.opacity = '1'
             }
         }
+    } else if(largura2 <= 520){
+        console.log('foi 4')
     }
 }
 
@@ -173,6 +181,8 @@ function caixaInforma5(){
                 botao.style.opacity = '1'
             }
         }
+    } else if(largura2 <= 520){
+        console.log('foi 5')
     }
 }
 
@@ -204,6 +214,8 @@ function caixaInforma6(){
                 botao.style.opacity = '1'
             }
         }
+    } else if(largura2 <= 520){
+        console.log('foi 6')
     }
 }
 
@@ -235,6 +247,8 @@ function caixaInforma7(){
                 botao.style.opacity = '1'
             }
         }
+    } else if(largura2 <= 520){
+        console.log('foi 7')
     }
 }
 
@@ -266,5 +280,7 @@ function caixaInforma8(){
                 botao.style.opacity = '1'
             }
         }
+    } else if(largura2 <= 520){
+        console.log('foi 8')
     }
 }

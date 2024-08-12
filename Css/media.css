@@ -1,0 +1,230 @@
+@media (max-width: 518.98px){
+
+    section{
+        overflow: hidden;
+    }
+    
+    h1{
+        padding: 5px 0 15px 0;
+        font-size: 20px;
+        line-height: 30px;
+    }
+
+    h2{
+        font-size: 25px;
+    }
+
+    p{
+        font-size: 12px;
+        padding: 2px 0;
+    }
+
+    /*Classes
+    =================*/
+
+    .container{
+       padding: 0 15px;
+    }
+
+    .caixa-valor{
+        height: 870px;
+    }
+
+    .row{
+        height: 565px;
+    }
+
+    .col-10{
+        padding-right: 0px;
+        padding-left: 0px;
+    }
+
+    /*Gerais
+    =================*/
+
+    #home{
+        background-image: url('../Imagens/Fundos-Mobile/fundo-mobile-1.jpg');
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        padding-bottom: 330px;
+    }
+
+    #home video{
+        width: 421px;
+        height: 238px;
+    }
+
+    #home .btn{
+        width: 420px;
+    }
+
+    /*Sobre
+    =================*/
+
+    #sobre{
+        background-image: url('../Imagens/Fundos-Mobile/fundo-mobile-2.jpg');
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        padding-top: 250px;
+    }
+
+    #sobre .btn{
+        margin: 15px auto 0 auto;
+    }
+
+    /*Dinheiro
+    =================*/
+
+    #dinheiro{
+        background-image: url('../Imagens/Fundos-Mobile/fundo-mobile-3.jpg');
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        padding-top: 200px;
+    }
+
+    #dinheiro .btn{
+        margin: 15px auto 0 auto;
+    }
+
+    /*Ensino
+    =================*/
+
+    #ensino{
+        background-image: url('../Imagens/Fundos-Mobile/fundo-mobile-4.jpg');
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        padding-top: 300px;
+    }
+
+    #ensino .btn{
+        margin: 15px auto 0 auto;
+    }
+
+    /*Metodos
+    =================*/
+
+    #metodos h1{
+        margin-bottom: 0;
+        padding: 30px;
+    }
+
+    #fotos{
+        padding: 0;
+    }
+    
+    /*Info
+    =================*/
+
+    #info{
+        height: 1200px;
+    }
+
+    #info #modulos-conteudos{
+        height: 700px;
+    }
+
+    #info .col-md-5{
+        height: 320px;
+    }
+
+    #info .btn{
+        width: 250px;
+    }
+
+    .caixa-conteudo{
+        margin: 20px auto;
+    }
+
+    /*Depoimentos
+    ==================*/
+
+    #depoimentos{
+        height: 850px;
+    }
+
+    #depoimentos img{
+        margin: 0 110px;
+        padding-left: 15px;
+    }
+
+    /*Acesso
+    ==================*/
+
+    #acesso{
+        background-image: url('../Imagens/Fundos-Mobile/fundo-mobile-5.jpg');
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        padding-top: 370px;
+    }
+
+    #acesso .btn{
+        margin: 12px auto;
+    }
+
+    /*Inscricao
+    ==================*/
+
+    #inscricao{
+        height: 1600px;
+        padding-top: 100px;
+        margin-bottom: 75px;
+        background-image: none;
+    }
+
+    #inscricao .btn{
+        width: 320px;
+    }
+
+    #paragrafo-zero{
+        text-align: center;
+    }
+
+    #inscricao h2{
+        height: 35px;
+        margin: 0;
+    }
+
+    #inscricao h5{
+        margin: 0;
+    }
+
+    #inscricao h1#preco{
+        font-size: 55px;
+        padding: 5px 0;
+    }
+
+    #inscricao #garantia{
+        width: auto;
+        padding: 10px;
+        font-size: 12px;
+    }
+
+    ul{
+        padding-bottom: 20px;
+    }
+
+    ul li{
+        width: 370px;
+    }
+
+    ul li p{
+        font-size: 12px;
+    }
+
+    /*Perguntas
+    =================*/
+
+    #perguntas{
+        height: 860px;
+    }
+
+    #perguntas h1{
+        padding-bottom: 0;
+    }
+
+}
