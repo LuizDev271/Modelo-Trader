@@ -44,7 +44,7 @@
 
     #home{
         background-image: url('../Imagens/Fundos-Mobile/fundo-mobile-1.png');
-        background-position: center;
+        background-position: top center;
         background-repeat: no-repeat;
         background-size: cover;
         padding-bottom: 330px;
@@ -64,7 +64,7 @@
 
     #sobre{
         background-image: url('../Imagens/Fundos-Mobile/fundo-mobile-2.png');
-        background-position: center;
+        background-position: top center;
         background-repeat: no-repeat;
         background-size: cover;
         padding-top: 250px;
@@ -79,7 +79,7 @@
 
     #dinheiro{
         background-image: url('../Imagens/Fundos-Mobile/fundo-mobile-3.png');
-        background-position: center;
+        background-position: top center;
         background-repeat: no-repeat;
         background-size: cover;
         padding-top: 200px;
@@ -94,7 +94,7 @@
 
     #ensino{
         background-image: url('../Imagens/Fundos-Mobile/fundo-mobile-4.png');
-        background-position: center;
+        background-position: top center;
         background-repeat: no-repeat;
         background-size: cover;
         padding-top: 300px;
@@ -155,7 +155,7 @@
 
     #acesso{
         background-image: url('../Imagens/Fundos-Mobile/fundo-mobile-5.png');
-        background-position: center;
+        background-position: top center;
         background-repeat: no-repeat;
         background-size: cover;
         padding-top: 370px;
