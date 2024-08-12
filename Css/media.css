@@ -227,4 +227,16 @@
         padding-bottom: 0;
     }
 
+    /*Rodape
+    ==================*/
+    #rodape{
+        height: 215px;
+    }
+
+    #rodape p{
+        padding: 15px;
+        text-align: center;
+        font-size: 14px;
+    }
+
 }
