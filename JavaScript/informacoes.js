@@ -63,7 +63,7 @@ function caixaInforma1(){
             aberta[0] = true
     
             paragrafo.style.opacity = '0'
-            paragrafo.style.marginTop = '650px'
+            paragrafo.style.marginTop = '750px'
             botao.style.opacity = '0'
             botao.style.cursor = 'default'
             info.style.height = '1700px'
@@ -123,7 +123,7 @@ function caixaInforma2(){
             aberta[1] = true
     
             paragrafo.style.opacity = '0'
-            paragrafo.style.marginTop = '650px'
+            paragrafo.style.marginTop = '750px'
             botao.style.opacity = '0'
             botao.style.cursor = 'default'
             info.style.height = '1700px'
@@ -183,7 +183,7 @@ function caixaInforma3(){
             aberta[2] = true
     
             paragrafo.style.opacity = '0'
-            paragrafo.style.marginTop = '650px'
+            paragrafo.style.marginTop = '750px'
             botao.style.opacity = '0'
             botao.style.cursor = 'default'
             info.style.height = '1700px'
@@ -243,7 +243,7 @@ function caixaInforma4(){
             aberta[3] = true
     
             paragrafo.style.opacity = '0'
-            paragrafo.style.marginTop = '650px'
+            paragrafo.style.marginTop = '750px'
             botao.style.opacity = '0'
             botao.style.cursor = 'default'
             info.style.height = '1700px'
@@ -402,7 +402,7 @@ function caixaInforma9(){
         aberta[8] = true
 
         paragrafo.style.opacity = '0'
-        paragrafo.style.marginTop = '650px'
+        paragrafo.style.marginTop = '750px'
         botao.style.opacity = '0'
         botao.style.cursor = 'default'
         info.style.height = '1700px'
@@ -433,7 +433,7 @@ function caixaInforma10(){
         aberta[9] = true
 
         paragrafo.style.opacity = '0'
-        paragrafo.style.marginTop = '650px'
+        paragrafo.style.marginTop = '750px'
         botao.style.opacity = '0'
         botao.style.cursor = 'default'
         info.style.height = '1700px'
@@ -464,7 +464,7 @@ function caixaInforma11(){
         aberta[10] = true
 
         paragrafo.style.opacity = '0'
-        paragrafo.style.marginTop = '650px'
+        paragrafo.style.marginTop = '750px'
         botao.style.opacity = '0'
         botao.style.cursor = 'default'
         info.style.height = '1700px'
@@ -495,7 +495,7 @@ function caixaInforma12(){
         aberta[11] = true
 
         paragrafo.style.opacity = '0'
-        paragrafo.style.marginTop = '650px'
+        paragrafo.style.marginTop = '750px'
         botao.style.opacity = '0'
         botao.style.cursor = 'default'
         info.style.height = '1700px'
