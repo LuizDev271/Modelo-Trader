@@ -46,7 +46,29 @@ function abrirPergunta1(){
             }
         }
     } else if(largura3 <= 520){
-        console.log('foi 1')
+        if(aberta2[0] == false){
+            perguntasFeitas[0].style.display = 'block'
+
+            rodape.style.opacity = '0'
+            perguntasTamanho.style.height = '1650px'
+
+            icones2[20].classList.remove('fa-caret-down')
+            icones2[20].classList.add('fa-caret-up')
+
+            aberta2[0] = true
+
+        } else if(aberta2[0] == true){
+            perguntasFeitas[0].style.display = 'none'
+            aberta2[0] = false
+
+            icones2[20].classList.remove('fa-caret-up')
+            icones2[20].classList.add('fa-caret-down')
+
+            if(aberta2[0] == false && aberta2[1] == false && aberta2[2] == false && aberta2[3] == false && aberta2[4] == false && aberta2[5] == false && aberta2[6] == false && aberta2[7] == false){
+                perguntasTamanho.style.height = '860px'
+                rodape.style.opacity = '1'
+            }
+        }
     }
 }
 
@@ -76,7 +98,29 @@ function abrirPergunta2(){
             }
         }
     } else if(largura3 <= 520){
-        console.log('foi 2')
+        if(aberta2[1] == false){
+            perguntasFeitas[1].style.display = 'block'
+
+            rodape.style.opacity = '0'
+            perguntasTamanho.style.height = '1650px'
+
+            icones2[21].classList.remove('fa-caret-down')
+            icones2[21].classList.add('fa-caret-up')
+
+            aberta2[1] = true
+
+        } else if(aberta2[1] == true){
+            perguntasFeitas[1].style.display = 'none'
+            aberta2[1] = false
+
+            icones2[21].classList.remove('fa-caret-up')
+            icones2[21].classList.add('fa-caret-down')
+
+            if(aberta2[0] == false && aberta2[1] == false && aberta2[2] == false && aberta2[3] == false && aberta2[4] == false && aberta2[5] == false && aberta2[6] == false && aberta2[7] == false){
+                rodape.style.opacity = '1'
+                perguntasTamanho.style.height = '860px'
+            }
+        }
     }
 }
 
@@ -106,7 +150,29 @@ function abrirPergunta3(){
             }
         }
     } else if(largura3 <= 520){
-        console.log('foi 3')
+        if(aberta2[2] == false){
+            perguntasFeitas[2].style.display = 'block'
+
+            rodape.style.opacity = '0'
+            perguntasTamanho.style.height = '1650px'
+
+            icones2[22].classList.remove('fa-caret-down')
+            icones2[22].classList.add('fa-caret-up')
+
+            aberta2[2] = true
+
+        } else if(aberta2[2] == true){
+            perguntasFeitas[2].style.display = 'none'
+            aberta2[2] = false
+
+            icones2[22].classList.remove('fa-caret-down')
+            icones2[22].classList.add('fa-caret-up')
+
+            if(aberta2[0] == false && aberta2[1] == false && aberta2[2] == false && aberta2[3] == false && aberta2[4] == false && aberta2[5] == false && aberta2[6] == false && aberta2[7] == false){
+                rodape.style.opacity = '1'
+                perguntasTamanho.style.height = '860px'
+            }
+        }
     }
 }
 
@@ -136,7 +202,29 @@ function abrirPergunta4(){
             }
         }
     } else if(largura3 <= 520){
-        console.log('foi 4')
+        if(aberta2[3] == false){
+            perguntasFeitas[3].style.display = 'block'
+
+            rodape.style.opacity = '0'
+            perguntasTamanho.style.height = '1650px'
+
+            icones2[23].classList.remove('fa-caret-down')
+            icones2[23].classList.add('fa-caret-up')
+
+            aberta2[3] = true
+
+        } else if(aberta2[3] == true){
+            perguntasFeitas[3].style.display = 'none'
+            aberta2[3] = false
+
+            icones2[23].classList.remove('fa-caret-up')
+            icones2[23].classList.add('fa-caret-down')
+
+            if(aberta2[0] == false && aberta2[1] == false && aberta2[2] == false && aberta2[3] == false && aberta2[4] == false && aberta2[5] == false && aberta2[6] == false && aberta2[7] == false){
+                rodape.style.opacity = '1'
+                perguntasTamanho.style.height = '860px'
+            }
+        }
     }
 }
 
@@ -166,7 +254,28 @@ function abrirPergunta5(){
             }
         }
     } else if(largura3 <= 520){
-        console.log('foi 5')
+        if(aberta2[4] == false){
+            perguntasFeitas[4].style.display = 'block'
+
+            rodape.style.opacity = '0'
+
+            icones2[24].classList.remove('fa-caret-down')
+            icones2[24].classList.add('fa-caret-up')
+
+            aberta2[4] = true
+
+        } else if(aberta2[4] == true){
+            perguntasFeitas[4].style.display = 'none'
+            aberta2[4] = false
+
+            icones2[24].classList.remove('fa-caret-up')
+            icones2[24].classList.add('fa-caret-down')
+
+            if(aberta2[0] == false && aberta2[1] == false && aberta2[2] == false && aberta2[3] == false && aberta2[4] == false && aberta2[5] == false && aberta2[6] == false && aberta2[7] == false){
+                rodape.style.opacity = '1'
+                perguntasTamanho.style.height = '860px'
+            }
+        }
     }
 }
 
@@ -196,7 +305,29 @@ function abrirPergunta6(){
             }
         }
     } else if(largura3 <= 520){
-        console.log('foi 6')
+        if(aberta2[5] == false){
+            perguntasFeitas[5].style.display = 'block'
+
+            rodape.style.opacity = '0'
+            perguntasTamanho.style.height = '1650px'
+
+            icones2[25].classList.remove('fa-caret-down')
+            icones2[25].classList.add('fa-caret-up')
+
+            aberta2[5] = true
+
+        } else if(aberta2[5] == true){
+            perguntasFeitas[5].style.display = 'none'
+            aberta2[5] = false
+
+            icones2[25].classList.remove('fa-caret-up')
+            icones2[25].classList.add('fa-caret-down')
+
+            if(aberta2[0] == false && aberta2[1] == false && aberta2[2] == false && aberta2[3] == false && aberta2[4] == false && aberta2[5] == false && aberta2[6] == false && aberta2[7] == false){
+                rodape.style.opacity = '1'
+                perguntasTamanho.style.height = '860px'
+            }
+        }
     }
 }
 
@@ -226,7 +357,29 @@ function abrirPergunta7(){
             }
         }
     } else if(largura3 <= 520){
-        console.log('foi 7')
+        if(aberta2[6] == false){
+            perguntasFeitas[6].style.display = 'block'
+
+            rodape.style.opacity = '0'
+            perguntasTamanho.style.height = '1650px'
+
+            icones2[26].classList.remove('fa-caret-down')
+            icones2[26].classList.add('fa-caret-up')
+
+            aberta2[6] = true
+
+        } else if(aberta2[6] == true){
+            perguntasFeitas[6].style.display = 'none'
+            aberta2[6] = false
+
+            icones2[26].classList.remove('fa-caret-up')
+            icones2[26].classList.add('fa-caret-down')
+
+            if(aberta2[0] == false && aberta2[1] == false && aberta2[2] == false && aberta2[3] == false && aberta2[4] == false && aberta2[5] == false && aberta2[6] == false && aberta2[7] == false){
+                rodape.style.opacity = '1'
+                perguntasTamanho.style.height = '860px'
+            }
+        }
     }
 }
 
@@ -256,6 +409,28 @@ function abrirPergunta8(){
             }
         }
     } else if(largura3 <= 520){
-        console.log('foi 8')
+        if(aberta2[7] == false){
+            perguntasFeitas[7].style.display = 'block'
+
+            rodape.style.opacity = '0'
+            perguntasTamanho.style.height = '1650px'
+
+            icones2[27].classList.remove('fa-caret-down')
+            icones2[27].classList.add('fa-caret-up')
+
+            aberta2[7] = true
+
+        } else if(aberta2[7] == true){
+            perguntasFeitas[7].style.display = 'none'
+            aberta2[7] = false
+
+            icones2[27].classList.remove('fa-caret-up')
+            icones2[27].classList.add('fa-caret-down')
+
+            if(aberta2[0] == false && aberta2[1] == false && aberta2[2] == false && aberta2[3] == false && aberta2[4] == false && aberta2[5] == false && aberta2[6] == false && aberta2[7] == false){
+                rodape.style.opacity = '1'
+                perguntasTamanho.style.height = '860px'
+            }
+        }
     }
 }

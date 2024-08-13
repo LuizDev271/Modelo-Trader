@@ -92,11 +92,25 @@ ul li i{
     margin: 12px 0;
 }
 
+.caixa-conteudo-2{
+    background-color: var(--cor3);
+    height: 60px;
+    margin: 12px 0;
+}
+
 .caixa-conteudo:hover{
     cursor: pointer;
 }
 
+.caixa-conteudo-2:hover{
+    cursor: pointer;
+}
+
 .informa{
+    display: none;
+}
+
+.informa-2{
     display: none;
 }
 
@@ -332,6 +346,15 @@ ul li i{
 }
 
 .caixa-conteudo i{
+    color: var(--cor3);
+    font-size: 18px;
+    background-color: white;
+    margin-right: 20px;
+    border-radius: 2px;
+    padding: 2px 4px;
+}
+
+.caixa-conteudo-2 i{
     color: var(--cor3);
     font-size: 18px;
     background-color: white;

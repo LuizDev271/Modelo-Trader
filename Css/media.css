@@ -120,11 +120,16 @@
     =================*/
 
     #info{
-        height: 1200px;
+        height: 1100px;
     }
 
     #info #modulos-conteudos{
-        height: 700px;
+        height: 200px;
+        margin-bottom: 470px;
+    }
+
+    #info #modulos-conteudos p{
+        margin: 0 auto;
     }
 
     #info .col-md-5{
@@ -136,6 +141,10 @@
     }
 
     .caixa-conteudo{
+        margin: 20px auto;
+    }
+
+    .caixa-conteudo-2{
         margin: 20px auto;
     }
 
@@ -159,7 +168,7 @@
         background-position: top center;
         background-repeat: no-repeat;
         background-size: cover;
-        padding-top: 370px;
+        padding-top: 390px;
     }
 
     #acesso .btn{
