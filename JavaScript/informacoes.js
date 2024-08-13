@@ -66,7 +66,7 @@ function caixaInforma1(){
             paragrafo.style.marginTop = '650px'
             botao.style.opacity = '0'
             botao.style.cursor = 'default'
-            info.style.height = '1500px'
+            info.style.height = '1700px'
 
             iconesCaixas[2].classList.remove('fa-caret-down')
             iconesCaixas[2].classList.add('fa-caret-up')
@@ -126,7 +126,7 @@ function caixaInforma2(){
             paragrafo.style.marginTop = '650px'
             botao.style.opacity = '0'
             botao.style.cursor = 'default'
-            info.style.height = '1500px'
+            info.style.height = '1700px'
 
             iconesCaixas[3].classList.remove('fa-caret-down')
             iconesCaixas[3].classList.add('fa-caret-up')
@@ -186,7 +186,7 @@ function caixaInforma3(){
             paragrafo.style.marginTop = '650px'
             botao.style.opacity = '0'
             botao.style.cursor = 'default'
-            info.style.height = '1500px'
+            info.style.height = '1700px'
 
             iconesCaixas[4].classList.remove('fa-caret-down')
             iconesCaixas[4].classList.add('fa-caret-up')
@@ -246,7 +246,7 @@ function caixaInforma4(){
             paragrafo.style.marginTop = '650px'
             botao.style.opacity = '0'
             botao.style.cursor = 'default'
-            info.style.height = '1500px'
+            info.style.height = '1700px'
 
             iconesCaixas[5].classList.remove('fa-caret-down')
             iconesCaixas[5].classList.add('fa-caret-up')
@@ -405,7 +405,7 @@ function caixaInforma9(){
         paragrafo.style.marginTop = '650px'
         botao.style.opacity = '0'
         botao.style.cursor = 'default'
-        info.style.height = '1500px'
+        info.style.height = '1700px'
 
         iconesCaixas[6].classList.remove('fa-caret-down')
         iconesCaixas[6].classList.add('fa-caret-up')
@@ -436,7 +436,7 @@ function caixaInforma10(){
         paragrafo.style.marginTop = '650px'
         botao.style.opacity = '0'
         botao.style.cursor = 'default'
-        info.style.height = '1500px'
+        info.style.height = '1700px'
 
         iconesCaixas[7].classList.remove('fa-caret-down')
         iconesCaixas[7].classList.add('fa-caret-up')
@@ -467,7 +467,7 @@ function caixaInforma11(){
         paragrafo.style.marginTop = '650px'
         botao.style.opacity = '0'
         botao.style.cursor = 'default'
-        info.style.height = '1500px'
+        info.style.height = '1700px'
 
         iconesCaixas[8].classList.remove('fa-caret-down')
         iconesCaixas[8].classList.add('fa-caret-up')
@@ -498,7 +498,7 @@ function caixaInforma12(){
         paragrafo.style.marginTop = '650px'
         botao.style.opacity = '0'
         botao.style.cursor = 'default'
-        info.style.height = '1500px'
+        info.style.height = '1700px'
 
         iconesCaixas[9].classList.remove('fa-caret-down')
         iconesCaixas[9].classList.add('fa-caret-up')

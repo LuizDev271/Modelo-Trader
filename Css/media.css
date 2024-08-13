@@ -164,6 +164,7 @@
     ==================*/
 
     #acesso{
+        height: 750px;
         background-image: url('../Imagens/Fundos_Mobile/fundo5.png');
         background-position: top center;
         background-repeat: no-repeat;

@@ -50,7 +50,7 @@ function abrirPergunta1(){
             perguntasFeitas[0].style.display = 'block'
 
             rodape.style.opacity = '0'
-            perguntasTamanho.style.height = '1650px'
+            perguntasTamanho.style.height = '1750px'
 
             icones2[20].classList.remove('fa-caret-down')
             icones2[20].classList.add('fa-caret-up')
@@ -102,7 +102,7 @@ function abrirPergunta2(){
             perguntasFeitas[1].style.display = 'block'
 
             rodape.style.opacity = '0'
-            perguntasTamanho.style.height = '1650px'
+            perguntasTamanho.style.height = '1750px'
 
             icones2[21].classList.remove('fa-caret-down')
             icones2[21].classList.add('fa-caret-up')
@@ -154,7 +154,7 @@ function abrirPergunta3(){
             perguntasFeitas[2].style.display = 'block'
 
             rodape.style.opacity = '0'
-            perguntasTamanho.style.height = '1650px'
+            perguntasTamanho.style.height = '1750px'
 
             icones2[22].classList.remove('fa-caret-down')
             icones2[22].classList.add('fa-caret-up')
@@ -206,7 +206,7 @@ function abrirPergunta4(){
             perguntasFeitas[3].style.display = 'block'
 
             rodape.style.opacity = '0'
-            perguntasTamanho.style.height = '1650px'
+            perguntasTamanho.style.height = '1750px'
 
             icones2[23].classList.remove('fa-caret-down')
             icones2[23].classList.add('fa-caret-up')
@@ -258,6 +258,7 @@ function abrirPergunta5(){
             perguntasFeitas[4].style.display = 'block'
 
             rodape.style.opacity = '0'
+            perguntasTamanho.style.height = '1750px'
 
             icones2[24].classList.remove('fa-caret-down')
             icones2[24].classList.add('fa-caret-up')
@@ -309,7 +310,7 @@ function abrirPergunta6(){
             perguntasFeitas[5].style.display = 'block'
 
             rodape.style.opacity = '0'
-            perguntasTamanho.style.height = '1650px'
+            perguntasTamanho.style.height = '1750px'
 
             icones2[25].classList.remove('fa-caret-down')
             icones2[25].classList.add('fa-caret-up')
@@ -361,7 +362,7 @@ function abrirPergunta7(){
             perguntasFeitas[6].style.display = 'block'
 
             rodape.style.opacity = '0'
-            perguntasTamanho.style.height = '1650px'
+            perguntasTamanho.style.height = '1750px'
 
             icones2[26].classList.remove('fa-caret-down')
             icones2[26].classList.add('fa-caret-up')
@@ -413,7 +414,7 @@ function abrirPergunta8(){
             perguntasFeitas[7].style.display = 'block'
 
             rodape.style.opacity = '0'
-            perguntasTamanho.style.height = '1650px'
+            perguntasTamanho.style.height = '1750px'
 
             icones2[27].classList.remove('fa-caret-down')
             icones2[27].classList.add('fa-caret-up')
