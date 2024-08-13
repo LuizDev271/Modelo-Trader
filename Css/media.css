@@ -112,6 +112,10 @@
         padding: 30px;
     }
 
+    #metodos img{
+        border-radius: 60px;
+    }
+
     #fotos{
         padding: 0;
     }
