@@ -35,7 +35,7 @@ function caixaInforma1(){
             informacoes[0].style.display = 'block'
             aberta[0] = true
     
-            tamanhoCaixaInformacoes.style.height = '750px'
+            tamanhoCaixaInformacoes.style.height = '850px'
             paragrafo.style.opacity = '0'
             botao.style.opacity = '0'
             botao.style.cursor = 'default'
@@ -63,7 +63,7 @@ function caixaInforma1(){
             aberta[0] = true
     
             paragrafo.style.opacity = '0'
-            paragrafo.style.marginTop = '750px'
+            paragrafo.style.marginTop = '850px'
             botao.style.opacity = '0'
             botao.style.cursor = 'default'
             info.style.height = '1700px'
@@ -95,7 +95,7 @@ function caixaInforma2(){
             informacoes[1].style.display = 'block'
             aberta[1] = true
     
-            tamanhoCaixaInformacoes.style.height = '750px'
+            tamanhoCaixaInformacoes.style.height = '850px'
             paragrafo.style.opacity = '0'
             botao.style.opacity = '0'
             botao.style.cursor = 'default'
@@ -123,7 +123,7 @@ function caixaInforma2(){
             aberta[1] = true
     
             paragrafo.style.opacity = '0'
-            paragrafo.style.marginTop = '750px'
+            paragrafo.style.marginTop = '850px'
             botao.style.opacity = '0'
             botao.style.cursor = 'default'
             info.style.height = '1700px'
@@ -155,7 +155,7 @@ function caixaInforma3(){
             informacoes[2].style.display = 'block'
             aberta[2] = true
     
-            tamanhoCaixaInformacoes.style.height = '750px'
+            tamanhoCaixaInformacoes.style.height = '850px'
             paragrafo.style.opacity = '0'
             botao.style.opacity = '0'
             botao.style.cursor = 'default'
@@ -183,7 +183,7 @@ function caixaInforma3(){
             aberta[2] = true
     
             paragrafo.style.opacity = '0'
-            paragrafo.style.marginTop = '750px'
+            paragrafo.style.marginTop = '850px'
             botao.style.opacity = '0'
             botao.style.cursor = 'default'
             info.style.height = '1700px'
@@ -215,7 +215,7 @@ function caixaInforma4(){
             informacoes[3].style.display = 'block'
             aberta[3] = true
     
-            tamanhoCaixaInformacoes.style.height = '750px'
+            tamanhoCaixaInformacoes.style.height = '850px'
             paragrafo.style.opacity = '0'
             botao.style.opacity = '0'
             botao.style.cursor = 'default'
@@ -243,7 +243,7 @@ function caixaInforma4(){
             aberta[3] = true
     
             paragrafo.style.opacity = '0'
-            paragrafo.style.marginTop = '750px'
+            paragrafo.style.marginTop = '850px'
             botao.style.opacity = '0'
             botao.style.cursor = 'default'
             info.style.height = '1700px'
@@ -275,7 +275,7 @@ function caixaInforma5(){
             informacoes[4].style.display = 'block'
             aberta[4] = true
     
-            tamanhoCaixaInformacoes.style.height = '750px'
+            tamanhoCaixaInformacoes.style.height = '850px'
             paragrafo.style.opacity = '0'
             botao.style.opacity = '0'
             botao.style.cursor = 'default'
@@ -306,7 +306,7 @@ function caixaInforma6(){
             informacoes[5].style.display = 'block'
             aberta[5] = true
     
-            tamanhoCaixaInformacoes.style.height = '750px'
+            tamanhoCaixaInformacoes.style.height = '850px'
             paragrafo.style.opacity = '0'
             botao.style.opacity = '0'
             botao.style.cursor = 'default'
@@ -337,7 +337,7 @@ function caixaInforma7(){
             informacoes[6].style.display = 'block'
             aberta[6] = true
     
-            tamanhoCaixaInformacoes.style.height = '750px'
+            tamanhoCaixaInformacoes.style.height = '850px'
             paragrafo.style.opacity = '0'
             botao.style.opacity = '0'
             botao.style.cursor = 'default'
@@ -368,7 +368,7 @@ function caixaInforma8(){
             informacoes[7].style.display = 'block'
             aberta[7] = true
     
-            tamanhoCaixaInformacoes.style.height = '750px'
+            tamanhoCaixaInformacoes.style.height = '850px'
             paragrafo.style.opacity = '0'
             botao.style.opacity = '0'
             botao.style.cursor = 'default'
@@ -402,7 +402,7 @@ function caixaInforma9(){
         aberta[8] = true
 
         paragrafo.style.opacity = '0'
-        paragrafo.style.marginTop = '750px'
+        paragrafo.style.marginTop = '850px'
         botao.style.opacity = '0'
         botao.style.cursor = 'default'
         info.style.height = '1700px'
@@ -433,7 +433,7 @@ function caixaInforma10(){
         aberta[9] = true
 
         paragrafo.style.opacity = '0'
-        paragrafo.style.marginTop = '750px'
+        paragrafo.style.marginTop = '850px'
         botao.style.opacity = '0'
         botao.style.cursor = 'default'
         info.style.height = '1700px'
@@ -464,7 +464,7 @@ function caixaInforma11(){
         aberta[10] = true
 
         paragrafo.style.opacity = '0'
-        paragrafo.style.marginTop = '750px'
+        paragrafo.style.marginTop = '850px'
         botao.style.opacity = '0'
         botao.style.cursor = 'default'
         info.style.height = '1700px'
@@ -495,7 +495,7 @@ function caixaInforma12(){
         aberta[11] = true
 
         paragrafo.style.opacity = '0'
-        paragrafo.style.marginTop = '750px'
+        paragrafo.style.marginTop = '850px'
         botao.style.opacity = '0'
         botao.style.cursor = 'default'
         info.style.height = '1700px'
