@@ -28,8 +28,8 @@ function abrirPergunta1(){
             rodape.style.opacity = '0'
             rodape.style.marginTop = '330px'
 
-            icones2[20].classList.remove('fa-caret-down')
-            icones2[20].classList.add('fa-caret-up')
+            icones2[24].classList.remove('fa-caret-down')
+            icones2[24].classList.add('fa-caret-up')
 
             aberta2[0] = true
 
@@ -37,12 +37,36 @@ function abrirPergunta1(){
             perguntasFeitas[0].style.display = 'none'
             aberta2[0] = false
 
-            icones2[20].classList.remove('fa-caret-up')
-            icones2[20].classList.add('fa-caret-down')
+            icones2[24].classList.remove('fa-caret-up')
+            icones2[24].classList.add('fa-caret-down')
 
             if(aberta2[0] == false && aberta2[1] == false && aberta2[2] == false && aberta2[3] == false && aberta2[4] == false && aberta2[5] == false && aberta2[6] == false && aberta2[7] == false){
                 rodape.style.opacity = '1'
                 rodape.style.marginTop = '0px'
+            }
+        }
+    } else if(largura3 >= 576 && largura3 < 1200){
+        if(aberta2[0] == false){
+            perguntasFeitas[0].style.display = 'block'
+
+            rodape.style.opacity = '0'
+            perguntasTamanho.style.height = '1300px'
+
+            icones2[24].classList.remove('fa-caret-down')
+            icones2[24].classList.add('fa-caret-up')
+
+            aberta2[0] = true
+
+        } else if(aberta2[0] == true){
+            perguntasFeitas[0].style.display = 'none'
+            aberta2[0] = false
+
+            icones2[24].classList.remove('fa-caret-up')
+            icones2[24].classList.add('fa-caret-down')
+
+            if(aberta2[0] == false && aberta2[1] == false && aberta2[2] == false && aberta2[3] == false && aberta2[4] == false && aberta2[5] == false && aberta2[6] == false && aberta2[7] == false){
+                rodape.style.opacity = '1'
+                perguntasTamanho.style.height = '860px'
             }
         }
     } else if(largura3 <= 520){
@@ -52,8 +76,8 @@ function abrirPergunta1(){
             rodape.style.opacity = '0'
             perguntasTamanho.style.height = '1750px'
 
-            icones2[20].classList.remove('fa-caret-down')
-            icones2[20].classList.add('fa-caret-up')
+            icones2[24].classList.remove('fa-caret-down')
+            icones2[24].classList.add('fa-caret-up')
 
             aberta2[0] = true
 
@@ -61,8 +85,8 @@ function abrirPergunta1(){
             perguntasFeitas[0].style.display = 'none'
             aberta2[0] = false
 
-            icones2[20].classList.remove('fa-caret-up')
-            icones2[20].classList.add('fa-caret-down')
+            icones2[24].classList.remove('fa-caret-up')
+            icones2[24].classList.add('fa-caret-down')
 
             if(aberta2[0] == false && aberta2[1] == false && aberta2[2] == false && aberta2[3] == false && aberta2[4] == false && aberta2[5] == false && aberta2[6] == false && aberta2[7] == false){
                 perguntasTamanho.style.height = '860px'
@@ -80,8 +104,8 @@ function abrirPergunta2(){
             rodape.style.opacity = '0'
             rodape.style.marginTop = '330px'
 
-            icones2[21].classList.remove('fa-caret-down')
-            icones2[21].classList.add('fa-caret-up')
+            icones2[25].classList.remove('fa-caret-down')
+            icones2[25].classList.add('fa-caret-up')
 
             aberta2[1] = true
 
@@ -89,12 +113,36 @@ function abrirPergunta2(){
             perguntasFeitas[1].style.display = 'none'
             aberta2[1] = false
 
-            icones2[21].classList.remove('fa-caret-up')
-            icones2[21].classList.add('fa-caret-down')
+            icones2[25].classList.remove('fa-caret-up')
+            icones2[25].classList.add('fa-caret-down')
 
             if(aberta2[0] == false && aberta2[1] == false && aberta2[2] == false && aberta2[3] == false && aberta2[4] == false && aberta2[5] == false && aberta2[6] == false && aberta2[7] == false){
                 rodape.style.opacity = '1'
                 rodape.style.marginTop = '0px'
+            }
+        }
+    } else if(largura3 >= 576 && largura3 < 1200){
+        if(aberta2[1] == false){
+            perguntasFeitas[1].style.display = 'block'
+
+            rodape.style.opacity = '0'
+            perguntasTamanho.style.height = '1300px'
+
+            icones2[25].classList.remove('fa-caret-down')
+            icones2[25].classList.add('fa-caret-up')
+
+            aberta2[1] = true
+
+        } else if(aberta2[1] == true){
+            perguntasFeitas[1].style.display = 'none'
+            aberta2[1] = false
+
+            icones2[25].classList.remove('fa-caret-up')
+            icones2[25].classList.add('fa-caret-down')
+
+            if(aberta2[1] == false && aberta2[0] == false && aberta2[2] == false && aberta2[3] == false && aberta2[4] == false && aberta2[5] == false && aberta2[6] == false && aberta2[7] == false){
+                rodape.style.opacity = '1'
+                perguntasTamanho.style.height = '860px'
             }
         }
     } else if(largura3 <= 520){
@@ -104,8 +152,8 @@ function abrirPergunta2(){
             rodape.style.opacity = '0'
             perguntasTamanho.style.height = '1750px'
 
-            icones2[21].classList.remove('fa-caret-down')
-            icones2[21].classList.add('fa-caret-up')
+            icones2[25].classList.remove('fa-caret-down')
+            icones2[25].classList.add('fa-caret-up')
 
             aberta2[1] = true
 
@@ -113,8 +161,8 @@ function abrirPergunta2(){
             perguntasFeitas[1].style.display = 'none'
             aberta2[1] = false
 
-            icones2[21].classList.remove('fa-caret-up')
-            icones2[21].classList.add('fa-caret-down')
+            icones2[25].classList.remove('fa-caret-up')
+            icones2[25].classList.add('fa-caret-down')
 
             if(aberta2[0] == false && aberta2[1] == false && aberta2[2] == false && aberta2[3] == false && aberta2[4] == false && aberta2[5] == false && aberta2[6] == false && aberta2[7] == false){
                 rodape.style.opacity = '1'
@@ -132,8 +180,8 @@ function abrirPergunta3(){
             rodape.style.opacity = '0'
             rodape.style.marginTop = '330px'
 
-            icones2[22].classList.remove('fa-caret-down')
-            icones2[22].classList.add('fa-caret-up')
+            icones2[26].classList.remove('fa-caret-down')
+            icones2[26].classList.add('fa-caret-up')
 
             aberta2[2] = true
 
@@ -141,12 +189,36 @@ function abrirPergunta3(){
             perguntasFeitas[2].style.display = 'none'
             aberta2[2] = false
 
-            icones2[22].classList.remove('fa-caret-down')
-            icones2[22].classList.add('fa-caret-up')
+            icones2[26].classList.remove('fa-caret-down')
+            icones2[26].classList.add('fa-caret-up')
 
             if(aberta2[0] == false && aberta2[1] == false && aberta2[2] == false && aberta2[3] == false && aberta2[4] == false && aberta2[5] == false && aberta2[6] == false && aberta2[7] == false){
                 rodape.style.opacity = '1'
                 rodape.style.marginTop = '0px'
+            }
+        }
+    } else if(largura3 >= 576 && largura3 < 1200){
+        if(aberta2[2] == false){
+            perguntasFeitas[2].style.display = 'block'
+
+            rodape.style.opacity = '0'
+            perguntasTamanho.style.height = '1300px'
+
+            icones2[26].classList.remove('fa-caret-down')
+            icones2[26].classList.add('fa-caret-up')
+
+            aberta2[2] = true
+
+        } else if(aberta2[2] == true){
+            perguntasFeitas[2].style.display = 'none'
+            aberta2[2] = false
+
+            icones2[26].classList.remove('fa-caret-up')
+            icones2[26].classList.add('fa-caret-down')
+
+            if(aberta2[2] == false && aberta2[1] == false && aberta2[0] == false && aberta2[3] == false && aberta2[4] == false && aberta2[5] == false && aberta2[6] == false && aberta2[7] == false){
+                rodape.style.opacity = '1'
+                perguntasTamanho.style.height = '860px'
             }
         }
     } else if(largura3 <= 520){
@@ -156,8 +228,8 @@ function abrirPergunta3(){
             rodape.style.opacity = '0'
             perguntasTamanho.style.height = '1750px'
 
-            icones2[22].classList.remove('fa-caret-down')
-            icones2[22].classList.add('fa-caret-up')
+            icones2[26].classList.remove('fa-caret-down')
+            icones2[26].classList.add('fa-caret-up')
 
             aberta2[2] = true
 
@@ -165,8 +237,8 @@ function abrirPergunta3(){
             perguntasFeitas[2].style.display = 'none'
             aberta2[2] = false
 
-            icones2[22].classList.remove('fa-caret-down')
-            icones2[22].classList.add('fa-caret-up')
+            icones2[26].classList.remove('fa-caret-down')
+            icones2[26].classList.add('fa-caret-up')
 
             if(aberta2[0] == false && aberta2[1] == false && aberta2[2] == false && aberta2[3] == false && aberta2[4] == false && aberta2[5] == false && aberta2[6] == false && aberta2[7] == false){
                 rodape.style.opacity = '1'
@@ -193,12 +265,36 @@ function abrirPergunta4(){
             perguntasFeitas[3].style.display = 'none'
             aberta2[3] = false
 
-            icones2[23].classList.remove('fa-caret-up')
-            icones2[23].classList.add('fa-caret-down')
+            icones2[27].classList.remove('fa-caret-up')
+            icones2[27].classList.add('fa-caret-down')
 
             if(aberta2[0] == false && aberta2[1] == false && aberta2[2] == false && aberta2[3] == false && aberta2[4] == false && aberta2[5] == false && aberta2[6] == false && aberta2[7] == false){
                 rodape.style.opacity = '1'
                 rodape.style.marginTop = '0px'
+            }
+        }
+    } else if(largura3 >= 576 && largura3 < 1200){
+        if(aberta2[3] == false){
+            perguntasFeitas[3].style.display = 'block'
+
+            rodape.style.opacity = '0'
+            perguntasTamanho.style.height = '1300px'
+
+            icones2[27].classList.remove('fa-caret-down')
+            icones2[27].classList.add('fa-caret-up')
+
+            aberta2[3] = true
+
+        } else if(aberta2[3] == true){
+            perguntasFeitas[3].style.display = 'none'
+            aberta2[3] = false
+
+            icones2[27].classList.remove('fa-caret-up')
+            icones2[27].classList.add('fa-caret-down')
+
+            if(aberta2[3] == false && aberta2[1] == false && aberta2[2] == false && aberta2[0] == false && aberta2[4] == false && aberta2[5] == false && aberta2[6] == false && aberta2[7] == false){
+                rodape.style.opacity = '1'
+                perguntasTamanho.style.height = '860px'
             }
         }
     } else if(largura3 <= 520){
@@ -208,8 +304,8 @@ function abrirPergunta4(){
             rodape.style.opacity = '0'
             perguntasTamanho.style.height = '1750px'
 
-            icones2[23].classList.remove('fa-caret-down')
-            icones2[23].classList.add('fa-caret-up')
+            icones2[27].classList.remove('fa-caret-down')
+            icones2[27].classList.add('fa-caret-up')
 
             aberta2[3] = true
 
@@ -217,8 +313,8 @@ function abrirPergunta4(){
             perguntasFeitas[3].style.display = 'none'
             aberta2[3] = false
 
-            icones2[23].classList.remove('fa-caret-up')
-            icones2[23].classList.add('fa-caret-down')
+            icones2[27].classList.remove('fa-caret-up')
+            icones2[27].classList.add('fa-caret-down')
 
             if(aberta2[0] == false && aberta2[1] == false && aberta2[2] == false && aberta2[3] == false && aberta2[4] == false && aberta2[5] == false && aberta2[6] == false && aberta2[7] == false){
                 rodape.style.opacity = '1'
@@ -236,8 +332,8 @@ function abrirPergunta5(){
             rodape.style.opacity = '0'
             rodape.style.marginTop = '330px'
 
-            icones2[24].classList.remove('fa-caret-down')
-            icones2[24].classList.add('fa-caret-up')
+            icones2[28].classList.remove('fa-caret-down')
+            icones2[28].classList.add('fa-caret-up')
 
             aberta2[4] = true
 
@@ -245,12 +341,36 @@ function abrirPergunta5(){
             perguntasFeitas[4].style.display = 'none'
             aberta2[4] = false
 
-            icones2[24].classList.remove('fa-caret-up')
-            icones2[24].classList.add('fa-caret-down')
+            icones2[28].classList.remove('fa-caret-up')
+            icones2[28].classList.add('fa-caret-down')
 
             if(aberta2[0] == false && aberta2[1] == false && aberta2[2] == false && aberta2[3] == false && aberta2[4] == false && aberta2[5] == false && aberta2[6] == false && aberta2[7] == false){
                 rodape.style.opacity = '1'
                 rodape.style.marginTop = '0px'
+            }
+        }
+    } else if(largura3 >= 576 && largura3 < 1200){
+        if(aberta2[4] == false){
+            perguntasFeitas[4].style.display = 'block'
+
+            rodape.style.opacity = '0'
+            perguntasTamanho.style.height = '1300px'
+
+            icones2[28].classList.remove('fa-caret-down')
+            icones2[28].classList.add('fa-caret-up')
+
+            aberta2[4] = true
+
+        } else if(aberta2[4] == true){
+            perguntasFeitas[4].style.display = 'none'
+            aberta2[4] = false
+
+            icones2[28].classList.remove('fa-caret-up')
+            icones2[28].classList.add('fa-caret-down')
+
+            if(aberta2[4] == false && aberta2[1] == false && aberta2[2] == false && aberta2[3] == false && aberta2[0] == false && aberta2[5] == false && aberta2[6] == false && aberta2[7] == false){
+                rodape.style.opacity = '1'
+                perguntasTamanho.style.height = '860px'
             }
         }
     } else if(largura3 <= 520){
@@ -260,8 +380,8 @@ function abrirPergunta5(){
             rodape.style.opacity = '0'
             perguntasTamanho.style.height = '1750px'
 
-            icones2[24].classList.remove('fa-caret-down')
-            icones2[24].classList.add('fa-caret-up')
+            icones2[28].classList.remove('fa-caret-down')
+            icones2[28].classList.add('fa-caret-up')
 
             aberta2[4] = true
 
@@ -269,8 +389,8 @@ function abrirPergunta5(){
             perguntasFeitas[4].style.display = 'none'
             aberta2[4] = false
 
-            icones2[24].classList.remove('fa-caret-up')
-            icones2[24].classList.add('fa-caret-down')
+            icones2[28].classList.remove('fa-caret-up')
+            icones2[28].classList.add('fa-caret-down')
 
             if(aberta2[0] == false && aberta2[1] == false && aberta2[2] == false && aberta2[3] == false && aberta2[4] == false && aberta2[5] == false && aberta2[6] == false && aberta2[7] == false){
                 rodape.style.opacity = '1'
@@ -288,8 +408,8 @@ function abrirPergunta6(){
             rodape.style.opacity = '0'
             rodape.style.marginTop = '330px'
 
-            icones2[25].classList.remove('fa-caret-down')
-            icones2[25].classList.add('fa-caret-up')
+            icones2[29].classList.remove('fa-caret-down')
+            icones2[29].classList.add('fa-caret-up')
 
             aberta2[5] = true
 
@@ -297,12 +417,36 @@ function abrirPergunta6(){
             perguntasFeitas[5].style.display = 'none'
             aberta2[5] = false
 
-            icones2[25].classList.remove('fa-caret-up')
-            icones2[25].classList.add('fa-caret-down')
+            icones2[29].classList.remove('fa-caret-up')
+            icones2[29].classList.add('fa-caret-down')
 
             if(aberta2[0] == false && aberta2[1] == false && aberta2[2] == false && aberta2[3] == false && aberta2[4] == false && aberta2[5] == false && aberta2[6] == false && aberta2[7] == false){
                 rodape.style.opacity = '1'
                 rodape.style.marginTop = '0px'
+            }
+        }
+    } else if(largura3 >= 576 && largura3 < 1200){
+        if(aberta2[5] == false){
+            perguntasFeitas[5].style.display = 'block'
+
+            rodape.style.opacity = '0'
+            perguntasTamanho.style.height = '1300px'
+
+            icones2[29].classList.remove('fa-caret-down')
+            icones2[29].classList.add('fa-caret-up')
+
+            aberta2[5] = true
+
+        } else if(aberta2[5] == true){
+            perguntasFeitas[5].style.display = 'none'
+            aberta2[5] = false
+
+            icones2[29].classList.remove('fa-caret-up')
+            icones2[29].classList.add('fa-caret-down')
+
+            if(aberta2[5] == false && aberta2[1] == false && aberta2[2] == false && aberta2[3] == false && aberta2[4] == false && aberta2[0] == false && aberta2[6] == false && aberta2[7] == false){
+                rodape.style.opacity = '1'
+                perguntasTamanho.style.height = '860px'
             }
         }
     } else if(largura3 <= 520){
@@ -312,8 +456,8 @@ function abrirPergunta6(){
             rodape.style.opacity = '0'
             perguntasTamanho.style.height = '1750px'
 
-            icones2[25].classList.remove('fa-caret-down')
-            icones2[25].classList.add('fa-caret-up')
+            icones2[29].classList.remove('fa-caret-down')
+            icones2[29].classList.add('fa-caret-up')
 
             aberta2[5] = true
 
@@ -321,8 +465,8 @@ function abrirPergunta6(){
             perguntasFeitas[5].style.display = 'none'
             aberta2[5] = false
 
-            icones2[25].classList.remove('fa-caret-up')
-            icones2[25].classList.add('fa-caret-down')
+            icones2[29].classList.remove('fa-caret-up')
+            icones2[29].classList.add('fa-caret-down')
 
             if(aberta2[0] == false && aberta2[1] == false && aberta2[2] == false && aberta2[3] == false && aberta2[4] == false && aberta2[5] == false && aberta2[6] == false && aberta2[7] == false){
                 rodape.style.opacity = '1'
@@ -340,8 +484,8 @@ function abrirPergunta7(){
             rodape.style.opacity = '0'
             rodape.style.marginTop = '330px'
 
-            icones2[26].classList.remove('fa-caret-down')
-            icones2[26].classList.add('fa-caret-up')
+            icones2[30].classList.remove('fa-caret-down')
+            icones2[30].classList.add('fa-caret-up')
 
             aberta2[6] = true
 
@@ -349,12 +493,36 @@ function abrirPergunta7(){
             perguntasFeitas[6].style.display = 'none'
             aberta2[6] = false
 
-            icones2[26].classList.remove('fa-caret-up')
-            icones2[26].classList.add('fa-caret-down')
+            icones2[30].classList.remove('fa-caret-up')
+            icones2[30].classList.add('fa-caret-down')
 
             if(aberta2[0] == false && aberta2[1] == false && aberta2[2] == false && aberta2[3] == false && aberta2[4] == false && aberta2[5] == false && aberta2[6] == false && aberta2[7] == false){
                 rodape.style.opacity = '1'
                 rodape.style.marginTop = '0px'
+            }
+        }
+    } else if(largura3 >= 576 && largura3 < 1200){
+        if(aberta2[6] == false){
+            perguntasFeitas[6].style.display = 'block'
+
+            rodape.style.opacity = '0'
+            perguntasTamanho.style.height = '1300px'
+
+            icones2[30].classList.remove('fa-caret-down')
+            icones2[30].classList.add('fa-caret-up')
+
+            aberta2[6] = true
+
+        } else if(aberta2[6] == true){
+            perguntasFeitas[6].style.display = 'none'
+            aberta2[6] = false
+
+            icones2[30].classList.remove('fa-caret-up')
+            icones2[30].classList.add('fa-caret-down')
+
+            if(aberta2[6] == false && aberta2[1] == false && aberta2[2] == false && aberta2[3] == false && aberta2[4] == false && aberta2[5] == false && aberta2[0] == false && aberta2[7] == false){
+                rodape.style.opacity = '1'
+                perguntasTamanho.style.height = '860px'
             }
         }
     } else if(largura3 <= 520){
@@ -364,8 +532,8 @@ function abrirPergunta7(){
             rodape.style.opacity = '0'
             perguntasTamanho.style.height = '1750px'
 
-            icones2[26].classList.remove('fa-caret-down')
-            icones2[26].classList.add('fa-caret-up')
+            icones2[30].classList.remove('fa-caret-down')
+            icones2[30].classList.add('fa-caret-up')
 
             aberta2[6] = true
 
@@ -373,8 +541,8 @@ function abrirPergunta7(){
             perguntasFeitas[6].style.display = 'none'
             aberta2[6] = false
 
-            icones2[26].classList.remove('fa-caret-up')
-            icones2[26].classList.add('fa-caret-down')
+            icones2[30].classList.remove('fa-caret-up')
+            icones2[30].classList.add('fa-caret-down')
 
             if(aberta2[0] == false && aberta2[1] == false && aberta2[2] == false && aberta2[3] == false && aberta2[4] == false && aberta2[5] == false && aberta2[6] == false && aberta2[7] == false){
                 rodape.style.opacity = '1'
@@ -392,8 +560,8 @@ function abrirPergunta8(){
             rodape.style.opacity = '0'
             rodape.style.marginTop = '330px'
 
-            icones2[27].classList.remove('fa-caret-down')
-            icones2[27].classList.add('fa-caret-up')
+            icones2[31].classList.remove('fa-caret-down')
+            icones2[31].classList.add('fa-caret-up')
 
             aberta2[7] = true
 
@@ -401,12 +569,36 @@ function abrirPergunta8(){
             perguntasFeitas[7].style.display = 'none'
             aberta2[7] = false
 
-            icones2[27].classList.remove('fa-caret-up')
-            icones2[27].classList.add('fa-caret-down')
+            icones2[31].classList.remove('fa-caret-up')
+            icones2[31].classList.add('fa-caret-down')
 
             if(aberta2[0] == false && aberta2[1] == false && aberta2[2] == false && aberta2[3] == false && aberta2[4] == false && aberta2[5] == false && aberta2[6] == false && aberta2[7] == false){
                 rodape.style.opacity = '1'
                 rodape.style.marginTop = '0px'
+            }
+        }
+    } else if(largura3 >= 576 && largura3 < 1200){
+        if(aberta2[7] == false){
+            perguntasFeitas[7].style.display = 'block'
+
+            rodape.style.opacity = '0'
+            perguntasTamanho.style.height = '1300px'
+
+            icones2[31].classList.remove('fa-caret-down')
+            icones2[31].classList.add('fa-caret-up')
+
+            aberta2[7] = true
+
+        } else if(aberta2[7] == true){
+            perguntasFeitas[7].style.display = 'none'
+            aberta2[7] = false
+
+            icones2[31].classList.remove('fa-caret-up')
+            icones2[31].classList.add('fa-caret-down')
+
+            if(aberta2[7] == false && aberta2[1] == false && aberta2[2] == false && aberta2[3] == false && aberta2[4] == false && aberta2[5] == false && aberta2[6] == false && aberta2[0] == false){
+                rodape.style.opacity = '1'
+                perguntasTamanho.style.height = '860px'
             }
         }
     } else if(largura3 <= 520){
@@ -416,8 +608,8 @@ function abrirPergunta8(){
             rodape.style.opacity = '0'
             perguntasTamanho.style.height = '1750px'
 
-            icones2[27].classList.remove('fa-caret-down')
-            icones2[27].classList.add('fa-caret-up')
+            icones2[31].classList.remove('fa-caret-down')
+            icones2[31].classList.add('fa-caret-up')
 
             aberta2[7] = true
 
@@ -425,8 +617,8 @@ function abrirPergunta8(){
             perguntasFeitas[7].style.display = 'none'
             aberta2[7] = false
 
-            icones2[27].classList.remove('fa-caret-up')
-            icones2[27].classList.add('fa-caret-down')
+            icones2[31].classList.remove('fa-caret-up')
+            icones2[31].classList.add('fa-caret-down')
 
             if(aberta2[0] == false && aberta2[1] == false && aberta2[2] == false && aberta2[3] == false && aberta2[4] == false && aberta2[5] == false && aberta2[6] == false && aberta2[7] == false){
                 rodape.style.opacity = '1'

@@ -9,8 +9,6 @@ let rolagem = 0
 
 function animacoes(){
 
-    console.log(rolagem)
-
     largura = window.innerWidth
     rolagem = scrollY
 

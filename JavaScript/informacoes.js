@@ -30,7 +30,7 @@ function recuperarLargura(){
 }
 
 function caixaInforma1(){
-    if(largura2 >= 1200){
+    if(largura2 >= 576){
         if(aberta[0] == false){
             informacoes[0].style.display = 'block'
             aberta[0] = true
@@ -90,7 +90,7 @@ function caixaInforma1(){
 }
 
 function caixaInforma2(){
-    if(largura2 >= 1200){
+    if(largura2 >= 576){
         if(aberta[1] == false){
             informacoes[1].style.display = 'block'
             aberta[1] = true
@@ -150,7 +150,7 @@ function caixaInforma2(){
 }
 
 function caixaInforma3(){
-    if(largura2 >= 1200){
+    if(largura2 >= 576){
         if(aberta[2] == false){
             informacoes[2].style.display = 'block'
             aberta[2] = true
@@ -210,7 +210,7 @@ function caixaInforma3(){
 }
 
 function caixaInforma4(){
-    if(largura2 >= 1200){
+    if(largura2 >= 576){
         if(aberta[3] == false){
             informacoes[3].style.display = 'block'
             aberta[3] = true
@@ -270,7 +270,7 @@ function caixaInforma4(){
 }
 
 function caixaInforma5(){
-    if(largura2 >= 1200){
+    if(largura2 >= 576){
         if(aberta[4] == false){
             informacoes[4].style.display = 'block'
             aberta[4] = true
@@ -301,7 +301,7 @@ function caixaInforma5(){
 }
 
 function caixaInforma6(){
-    if(largura2 >= 1200){
+    if(largura2 >= 576){
         if(aberta[5] == false){
             informacoes[5].style.display = 'block'
             aberta[5] = true
@@ -332,7 +332,7 @@ function caixaInforma6(){
 }
 
 function caixaInforma7(){
-    if(largura2 >= 1200){
+    if(largura2 >= 576){
         if(aberta[6] == false){
             informacoes[6].style.display = 'block'
             aberta[6] = true
@@ -363,7 +363,7 @@ function caixaInforma7(){
 }
 
 function caixaInforma8(){
-    if(largura2 >= 1200){
+    if(largura2 >= 576){
         if(aberta[7] == false){
             informacoes[7].style.display = 'block'
             aberta[7] = true
