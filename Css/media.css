@@ -27,7 +27,7 @@
     }
 
     .caixa-valor{
-        height: 915px;
+        height: 950px;
     }
 
     .row{
@@ -51,12 +51,12 @@
     }
 
     #home video{
-        width: 365px;
-        height: 207px;
+        width: 350px;
+        height: 199px;
     }
 
     #home .btn{
-        width: 365px;
+        width: 350px;
     }
 
     /*Sobre
@@ -203,6 +203,7 @@
     }
 
     #inscricao h2{
+        font-size: 22px;
         height: 35px;
         margin: 0;
     }
@@ -227,7 +228,7 @@
     }
 
     ul li{
-        width: 350px;
+        width: 80%;
     }
 
     ul li p{
